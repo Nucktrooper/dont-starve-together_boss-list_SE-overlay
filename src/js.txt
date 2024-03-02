@@ -1,0 +1,354 @@
+// v24.03.03
+
+const bossList = {
+	'ancient_guardian': {
+		'static': 'https://i.imgur.com/gRsvaze.png',
+		'animated': 'https://i.imgur.com/HuPpWwQ.gif',
+		'type': 'caves'
+	},
+	'antlion': {
+		'static': 'https://i.imgur.com/avzMm8L.png',
+		'animated': 'https://i.imgur.com/F72N6ZK.gif',
+		'type': 'world'
+	},
+	'bearger': {
+		'static': 'https://i.imgur.com/B1pnBqp.png',
+		'type': 'world'
+	},
+	'bearger_winter': {
+		'static': 'https://i.imgur.com/7ZaYFZX.png',
+		'animated': 'https://i.imgur.com/hTPBSkS.gif',
+		'type': 'winter'
+	},
+	'bearger_mutated': {
+		'static': 'https://i.imgur.com/tyUyTdx.png',
+		'animated': 'https://i.imgur.com/AOyCCMN.gif',
+		'type': 'mutated'
+	},
+	'bee_queen': {
+		'static': 'https://i.imgur.com/pQ7CB5R.png',
+		'animated': 'https://i.imgur.com/cVVMQC4.gif',
+		'type': 'world'
+	},
+	'celestial_champion': {
+		'static': 'https://i.imgur.com/lkCli0b.png',
+		'animated': 'https://i.imgur.com/Oq7iYaU.gif',
+		'type': 'world'
+	},
+	'crab_king': {
+		'static': 'https://i.imgur.com/Re4bNfx.png',
+		'animated': 'https://i.imgur.com/y3SoVhk.gif',
+		'type': 'oceans'
+	},
+	'deerclops': {
+		'static': 'https://i.imgur.com/Iwt9x0r.png',
+		'animated': 'https://i.imgur.com/f0Vnm45.gif',
+		'type': 'world'
+	},
+	'deerclops_winter': {
+		'static': 'https://i.imgur.com/mPKs718.png',
+		'animated': 'https://i.imgur.com/9jhlk6C.gif',
+		'type': 'winter'
+	},
+	'deerclops_mutated': {
+		'static': 'https://i.imgur.com/GtX7BxB.png',
+		'animated': 'https://i.imgur.com/UV0ae6q.gif',
+		'type': 'mutated'
+	},
+	'dragonfly': {
+		'static': 'https://i.imgur.com/MDZzHxE.png',
+		'type': 'world'
+	},
+	'dragonfly_winter': {
+		'static': 'https://i.imgur.com/ETtKOTT.png',
+		'type': 'winter'
+	},
+	'ewecus': {
+		'static': 'https://i.imgur.com/nG0hfPr.png',
+		'animated': 'https://i.imgur.com/P1cto8U.gif',
+		'type': 'world'
+	},
+	'eye_of_terror': {
+		'static': 'https://i.imgur.com/FOgjfkU.png',
+		'animated': 'https://i.imgur.com/Ddsie1d.gif',
+		'type': 'world'
+	},
+	'retinazor': {
+		'static': 'https://i.imgur.com/ERoFJHT.png',
+		'animated': 'https://i.imgur.com/ncWQEjB.gif',
+		'type': 'world'
+	},
+	'spazmatism': {
+		'static': 'https://i.imgur.com/WI6euO7.png',
+		'animated': 'https://i.imgur.com/HfavzzY.gif',
+		'type': 'world'
+	},
+	'frostjaw': {
+		'static': 'https://i.imgur.com/JXVprpD.png',
+		'animated': 'https://i.imgur.com/cBEJuf0.gif',
+		'type': 'oceans'
+	},
+	'fuelweaver_ancient': {
+		'static': 'https://i.imgur.com/CF39ghS.png',
+		'animated': 'https://i.imgur.com/4Rin8Ch.gif',
+		'type': 'caves'
+	},
+	'fuelweaver_caves': {
+		'static': 'https://i.imgur.com/5pX9bdW.png',
+		'type': 'caves'
+	},
+	'fuelweaver_forest': {
+		'static': 'https://i.imgur.com/SfDhWqQ.png',
+		'type': 'caves'
+	},
+	'goose': {
+		'static': 'https://i.imgur.com/AiPcshK.png',
+		'animated': 'https://i.imgur.com/CjxSt81.gif',
+		'type': 'world'
+	},
+	'goose_winter': {
+		'static': 'https://i.imgur.com/WYIcIdk.png',
+		'animated': 'https://i.imgur.com/vyPR8fi.gif',
+		'type': 'winter'
+	},
+	'klaus': {
+		'static': 'https://i.imgur.com/nP61g5H.png',
+		'animated': 'https://i.imgur.com/D2HFkbk.gif',
+		'type': 'world'
+	},
+	'lord_of_the_fruit_flies': {
+		'static': 'https://i.imgur.com/OTmcVRB.png',
+		'animated': 'https://i.imgur.com/iE4yTTX.gif',
+		'type': 'world'
+	},
+	'malbatross': {
+		'static': 'https://i.imgur.com/LetTC0O.png',
+		'animated': 'https://i.imgur.com/raeBe6Z.gif',
+		'type': 'oceans'
+	},
+	'nightmare_werepig': {
+		'static': 'https://i.imgur.com/8y43dFv.png',
+		'animated': 'https://i.imgur.com/AxzTnEx.gif',
+		'type': 'caves'
+	},
+	'shadow_pieces': {
+		'static': 'https://i.imgur.com/NeIqEBo.png',
+		'type': 'world'
+	},
+	'spider_queen': {
+		'static': 'https://i.imgur.com/PdDmZ8X.png',
+		'animated': 'https://i.imgur.com/5EYVNny.gif',
+		'type': 'world'
+	},
+	'toadstool': {
+		'static': 'https://i.imgur.com/E39U3ZA.png',
+		'animated': 'https://i.imgur.com/Dan0p99.gif',
+		'type': 'caves'
+	},
+	'toadstool_misery': {
+		'static': 'https://i.imgur.com/jJZhFqk.png',
+		'animated': 'https://i.imgur.com/6y4sTv9.gif',
+		'type': 'caves'
+	},
+	'treeguard': {
+		'static': 'https://i.imgur.com/uHfJVKZ.png',
+		'type': 'world'
+	},
+	'warg': {
+		'static': 'https://i.imgur.com/lB98yi5.png',
+		'animated': 'https://i.imgur.com/OliA5IX.gif',
+		'type': 'world'
+	},
+	'warg_mutated': {
+		'static': 'https://i.imgur.com/UFNEaZG.png',
+		'animated': 'https://i.imgur.com/K3vBbJQ.gif',
+		'type': 'mutated'
+	},
+	'quacken': {
+		'static': 'https://i.imgur.com/YwaP1zX.png',
+		'type': 'shipwrecked'
+	},
+	'sealnado': {
+		'static': 'https://i.imgur.com/TPHQQKo.png',
+		'animated': 'https://i.imgur.com/iqr4wum.gif',
+		'type': 'shipwrecked'
+	},
+	'tiger_shark': {
+		'static': 'https://i.imgur.com/XH6C51k.png',
+		'animated': 'https://i.imgur.com/WXgMc1r.gif',
+		'type': 'shipwrecked'
+	},
+	'ancient_herald': {
+		'static': 'https://i.imgur.com/1eVzFMb.png',
+		'animated': 'https://i.imgur.com/5PfK25Q.gif',
+		'type': 'hamlet'
+	},
+	'iron_hulk': {
+		'static': 'https://i.imgur.com/O19zaVu.png',
+		'type': 'hamlet'
+	},
+	'pugalisk': {
+		'static': 'https://i.imgur.com/SaSygAS.png',
+		'animated': 'https://i.imgur.com/CXjpjIZ.gif',
+		'type': 'hamlet'
+	},
+	'queen_womant': {
+		'static': 'https://i.imgur.com/XVT2vFl.png',
+		'animated': 'https://i.imgur.com/uyttv0d.gif',
+		'type': 'hamlet'
+	}
+};
+
+let widgetData = {};
+let allowModerators = true;
+let toggleCommand = '!dst-boss-toggle';
+let setDoneCommand = '!dst-boss-done';
+let setTodoCommand = '!dst-boss-todo';
+let setAllDoneCommand = '!dst-boss-alldone';
+let resetCommand = '!dst-boss-reset';
+window.addEventListener('onWidgetLoad', function(obj) {
+	widgetData = obj.detail.fieldData;
+	allowModerators = widgetData.allow_command_for_moderators;
+	toggleCommand = widgetData.toggle_command;
+	setDoneCommand = widgetData.set_done_command;
+	setTodoCommand = widgetData.set_todo_command;
+	setAllDoneCommand = widgetData.set_all_done_command;
+	resetCommand = widgetData.reset_command;
+
+	if (widgetData.orientation === 'column') {
+		addStyle('#boss-list', 'flex-direction', 'column');
+		addStyle('#boss-list > img', 'width', `${widgetData.boss_size}px`);
+		} else {
+		addStyle('#boss-list', 'flex-direction', 'row');
+		addStyle('#boss-list > img', 'height', `${widgetData.boss_size}px`);
+		}
+
+	if (widgetData.boss_opacity === 0) {
+		addStyle('#boss-list > img:not(.done)', 'display', 'none');
+	} else {
+		addStyle('#boss-list > img:not(.done)', 'opacity', widgetData.boss_opacity / 100);
+		}
+	if (widgetData.boss_done_opacity === 0) {
+		addStyle('#boss-list > img.done', 'display', 'none');
+	} else {
+		addStyle('#boss-list > img.done', 'opacity', widgetData.boss_done_opacity / 100);
+		}
+
+	['world', 'caves', 'oceans', 'mutated', 'winter', 'shipwrecked', 'hamlet']
+	.filter((bossType) => widgetData[`${bossType}_boss_type_display`])
+	.forEach((bossType) => {
+		const bosses = Object.entries(bossList)
+			.filter(([key, value]) => value.type === bossType)
+			.filter(([key, value]) => widgetData[`${key}_display`])
+			.forEach(([key, value]) => {
+				$(`#boss-list`).append($(`<img id="${key}" src="${widgetData.img_type === 'animated' && value.animated || value.static}" />`));
+				$(`#boss-list > img#${key}`).click(() => progress.toggle(key));
+			});
+	});
+
+	progress.init();
+	setInterval(progress.init, 2000);
+});
+
+window.addEventListener('onEventReceived', function(obj) {
+	if (!obj.detail.event) {
+		return;
+	}
+	const listener = obj.detail.listener.split("-")[0];
+	const event = obj.detail.event;
+
+	if (listener === 'message') {
+				const [command, ...args] = event.data.text.split(' ');
+		const isBroadcaster = event.data.badges.some(badge => badge.type === 'broadcaster');
+		const isModerator = event.data.badges.some(badge => badge.type === 'moderator');
+		if (!isBroadcaster && (!allowModerators || !isModerator)) return;
+
+		if (resetCommand && (command === resetCommand)) {
+			return progress.resetAll();
+		}
+		if (setAllDoneCommand && (command === setAllDoneCommand)) {
+			return progress.setAllDone();
+		}
+
+		if (args.length === 0) {
+			return;
+		}
+		const bossKey = findBossKey(args);
+		if (!bossKey) {
+			return;
+		}
+
+		if (toggleCommand && (command === toggleCommand)) {
+			return progress.toggle(bossKey);
+		}
+		if (setTodoCommand && (command === setTodoCommand)) {
+			return progress.setTodo(bossKey);
+				}
+		if (setDoneCommand && (command === setDoneCommand)) { 
+			return progress.setDone(bossKey);
+		}
+	}
+});
+
+function findBossKey(args) {
+	if (args.length === 0) return;
+	return Object.entries(bossList)
+		.find(([key, value]) => widgetData[`${key}_command_key`].toLowerCase() === args[0].toLowerCase())?.[0];
+}
+
+function addStyle(selector, key, value) {
+	$('head').append(`<style type="text/css">${selector} { ${key}: ${value}; }</style>`);
+}
+
+const progress = (() => {
+	const BOSS_LIST_DATA_NAME = "dst-boss-done-list";
+
+	let dones = [];
+		const setBossDones = (new_dones) => {
+		dones = new_dones;
+		SE_API.store.set(BOSS_LIST_DATA_NAME, dones);
+		Object.entries(bossList)
+			.filter(([key, value]) => widgetData[`${key}_display`])
+			.forEach(([key, value]) => {
+				$(`#boss-list > img#${key}`).removeClass('done');
+				if (dones.includes(key)) {
+					$(`#boss-list > img#${key}`).addClass('done');
+				}
+			});
+	};
+
+	return {
+		init: () => {
+			SE_API.store.get(BOSS_LIST_DATA_NAME).then(obj => {
+				if (!obj) {
+					setBossDones([]);
+				} else {
+					setBossDones(obj);
+				}
+			});
+				},
+		toggle: (bossKey) => {
+			if (dones.includes(bossKey)) {
+				setBossDones(dones.filter(key => key !== bossKey));
+			} else {
+				setBossDones([...dones, bossKey]);
+			}
+				},
+		setTodo: (bossKey) => {
+			if (dones.includes(bossKey)) {
+				setBossDones(dones.filter(key => key !== bossKey));
+			}
+		},
+		setDone: (bossKey) => {
+			if (!dones.includes(bossKey)) {
+				setBossDones([...dones, bossKey]);
+			}
+		},
+		setAllDone() {
+			setBossDones(Object.keys(bossList));
+		},
+		resetAll() {
+			setBossDones([]);
+		}
+	};
+})();

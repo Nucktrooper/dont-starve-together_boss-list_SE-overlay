@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+* {
+	overflow: hidden;
+}
+
+#boss-list {
+	align-content: baseline;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 100%;
+	gap: 2px;
+}
+#boss-list > img {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	cursor: pointer;
+}
+#boss-list > img.done {
+	opacity: 1;
+}

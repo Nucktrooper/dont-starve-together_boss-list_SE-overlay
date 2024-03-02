@@ -1,0 +1,629 @@
+{
+	"allow_command_for_moderators": {
+		"type": "checkbox",
+		"label": "Moderators control",
+		"value": true,
+		"group": "Commands"
+	},
+	"toggle_command": {
+		"type": "text",
+		"label": "Toggle boss:",
+		"value": "!dst-boss-toggle",
+		"group": "Commands"
+	},
+	"set_todo_command": {
+		"type": "text",
+		"label": "Set boss to do:",
+		"value": "!dst-boss-todo",
+		"group": "Commands"
+	},
+	"set_done_command": {
+		"type": "text",
+		"label": "Set boss done:",
+		"value": "!dst-boss-done",
+		"group": "Commands"
+	},
+	"set_all_done_command": {
+		"type": "text",
+		"label": "Set all bosses done:",
+		"value": "!dst-boss-alldone",
+		"group": "Commands"
+	},
+	"reset_command": {
+		"type": "text",
+		"label": "Reset all bosses:",
+		"value": "!dst-boss-reset",
+		"group": "Commands"
+	},
+
+	"img_type": {
+		"type": "dropdown",
+		"label": "Images type:",
+		"value": "animated",
+		"options": {
+			"static": "static",
+			"animated": "animated"
+		},
+		"group": "Appearance"
+	},
+	"orientation": {
+		"type": "dropdown",
+		"label": "Orientation:",
+		"value": "row",
+		"options": {
+			"row": "row",
+			"column": "column"
+		},
+		"group": "Appearance"
+	},
+
+	"boss_size": {
+		"type": "number",
+		"min": 10,
+		"max": 200,
+		"step": 1,
+		"label": "Boss size [10, 200]",
+		"value": 100,
+		"group": "Appearance"
+	},
+	"boss_opacity": {
+		"type": "number",
+		"min": 0,
+		"max": 100,
+		"step": 1,
+		"label": "Boss opacity [0%, 100%]",
+		"value": 30,
+		"group": "Appearance"
+	},
+	"boss_done_opacity": {
+		"type": "number",
+		"min": 0,
+		"max": 100,
+		"step": 1,
+		"label": "Boss done opacity [0%, 100%]",
+		"value": 100,
+		"group": "Appearance"
+	},
+
+	"world_boss_type_display": {
+		"type": "checkbox",
+		"label": "World",
+		"value": true,
+		"group": "Boss Types"
+	},
+	"caves_boss_type_display": {
+		"type": "checkbox",
+		"label": "Caves",
+		"value": true,
+		"group": "Boss Types"
+	},
+	"oceans_boss_type_display": {
+		"type": "checkbox",
+		"label": "Oceans",
+		"value": true,
+		"group": "Boss Types"
+	},
+	"mutated_boss_type_display": {
+		"type": "checkbox",
+		"label": "Mutated",
+		"value": true,
+		"group": "Boss Types"
+	},
+	"winter_boss_type_display": {
+		"type": "checkbox",
+		"label": "Winter's Feast",
+		"value": true,
+		"group": "Boss Types"
+	},
+	"shipwrecked_boss_type_display": {
+		"type": "checkbox",
+		"label": "Shipwrecked",
+		"value": true,
+		"group": "Boss Types"
+	},
+	"hamlet_boss_type_display": {
+		"type": "checkbox",
+		"label": "Hamlet",
+		"value": true,
+		"group": "Boss Types"
+	},
+
+	"antlion_display": {
+		"type": "checkbox",
+		"label": "Antlion",
+		"value": true,
+		"group": "World Boss"
+	},
+	"antlion_command_key": {
+		"type": "text",
+		"label": "Antlion command key:",
+		"value": "antlion",
+		"group": "World Boss"
+	},
+	"bearger_display": {
+		"type": "checkbox",
+		"label": "Bearger",
+		"value": true,
+		"group": "World Boss"
+	},
+	"bearger_command_key": {
+		"type": "text",
+		"label": "Bearger command key:",
+		"value": "bearger",
+		"group": "World Boss"
+	},
+	"bee_queen_display": {
+		"type": "checkbox",
+		"label": "Bee Queen",
+		"value": true,
+		"group": "World Boss"
+	},
+	"bee_queen_command_key": {
+		"type": "text",
+		"label": "Bee Queen command key:",
+		"value": "bee_queen",
+		"group": "World Boss"
+	},
+	"celestial_champion_display": {
+		"type": "checkbox",
+		"label": "Celestial Champion",
+		"value": true,
+		"group": "World Boss"
+	},
+	"celestial_champion_command_key": {
+		"type": "text",
+		"label": "Celestial Champion command key:",
+		"value": "celestial_champion",
+		"group": "World Boss"
+	},
+	"deerclops_display": {
+		"type": "checkbox",
+		"label": "Deerclops",
+		"value": true,
+		"group": "World Boss"
+	},
+	"deerclops_command_key": {
+		"type": "text",
+		"label": "Deerclops command key:",
+		"value": "deerclops",
+		"group": "World Boss"
+	},
+	"dragonfly_display": {
+		"type": "checkbox",
+		"label": "Dragonfly",
+		"value": true,
+		"group": "World Boss"
+	},
+	"dragonfly_command_key": {
+		"type": "text",
+		"label": "Dragonfly command key:",
+		"value": "dragonfly",
+		"group": "World Boss"
+	},
+	"ewecus_display": {
+		"type": "checkbox",
+		"label": "ewecus",
+		"value": true,
+		"group": "World Boss"
+	},
+	"ewecus_command_key": {
+		"type": "text",
+		"label": "Ewecus command key:",
+		"value": "ewecus",
+		"group": "World Boss"
+	},
+	"eye_of_terror_display": {
+		"type": "checkbox",
+		"label": "Eye of terror",
+		"value": true,
+		"group": "World Boss"
+	},
+	"eye_of_terror_command_key": {
+		"type": "text",
+		"label": "Eye of terror command key:",
+		"value": "eye_of_terror",
+		"group": "World Boss"
+	},
+	"retinazor_display": {
+		"type": "checkbox",
+		"label": "Retinazor",
+		"value": true,
+		"group": "World Boss"
+	},
+	"retinazor_command_key": {
+		"type": "text",
+		"label": "Retinazor command key:",
+		"value": "retinazor",
+		"group": "World Boss"
+	},
+	"spazmatism_display": {
+		"type": "checkbox",
+		"label": "Spazmatism",
+		"value": true,
+		"group": "World Boss"
+	},
+	"spazmatism_command_key": {
+		"type": "text",
+		"label": "Spazmatism command key:",
+		"value": "spazmatism",
+		"group": "World Boss"
+	},
+	"goose_display": {
+		"type": "checkbox",
+		"label": "Goose",
+		"value": true,
+		"group": "World Boss"
+	},
+	"goose_command_key": {
+		"type": "text",
+		"label": "Goose command key:",
+		"value": "goose",
+		"group": "World Boss"
+	},
+	"klaus_display": {
+		"type": "checkbox",
+		"label": "Klaus",
+		"value": true,
+		"group": "World Boss"
+	},
+	"klaus_command_key": {
+		"type": "text",
+		"label": "Klaus command key:",
+		"value": "klaus",
+		"group": "World Boss"
+	},
+	"lord_of_the_fruit_flies_display": {
+		"type": "checkbox",
+		"label": "Lord of the Fruit Flies",
+		"value": true,
+		"group": "World Boss"
+	},
+	"lord_of_the_fruit_flies_command_key": {
+		"type": "text",
+		"label": "Lord of the Fruit Flies command key:",
+		"value": "lord_of_the_fruit_flies",
+		"group": "World Boss"
+	},
+	"shadow_pieces_display": {
+		"type": "checkbox",
+		"label": "Shadow Pieces",
+		"value": true,
+		"group": "World Boss"
+	},
+	"shadow_pieces_command_key": {
+		"type": "text",
+		"label": "Shadow Pieces command key:",
+		"value": "shadow_pieces",
+		"group": "World Boss"
+	},
+	"spider_queen_display": {
+		"type": "checkbox",
+		"label": "Spider Queen",
+		"value": true,
+		"group": "World Boss"
+	},
+	"spider_queen_command_key": {
+		"type": "text",
+		"label": "Spider Queen command key:",
+		"value": "spider_queen",
+		"group": "World Boss"
+	},
+	"treeguard_display": {
+		"type": "checkbox",
+		"label": "Treeguard",
+		"value": true,
+		"group": "World Boss"
+	},
+	"treeguard_command_key": {
+		"type": "text",
+		"label": "Treeguard command key:",
+		"value": "treeguard",
+		"group": "World Boss"
+	},
+	"warg_display": {
+		"type": "checkbox",
+		"label": "Warg",
+		"value": true,
+		"group": "World Boss"
+	},
+	"warg_command_key": {
+		"type": "text",
+		"label": "Warg command key:",
+		"value": "warg",
+		"group": "World Boss"
+	},
+
+	"ancient_guardian_display": {
+		"type": "checkbox",
+		"label": "Ancient Guardian",
+		"value": true,
+		"group": "Caves Boss"
+	},
+	"ancient_guardian_command_key": {
+		"type": "text",
+		"label": "Ancient Guardian command key:",
+		"value": "ancient_guardian",
+		"group": "Caves Boss"
+	},
+	"fuelweaver_ancient_display": {
+		"type": "checkbox",
+		"label": "Ancient Fuelweaver",
+		"value": true,
+		"group": "Caves Boss"
+	},
+	"fuelweaver_ancient_command_key": {
+		"type": "text",
+		"label": "Ancient Fuelweaver command key:",
+		"value": "ancient_fuelweaver",
+		"group": "Caves Boss"
+	},
+	"fuelweaver_caves_display": {
+		"type": "checkbox",
+		"label": "Caves Fuelweaver",
+		"value": true,
+		"group": "Caves Boss"
+	},
+	"fuelweaver_caves_command_key": {
+		"type": "text",
+		"label": "Caves Fuelweaver command key:",
+		"value": "caves_fuelweaver",
+		"group": "Caves Boss"
+	},
+	"fuelweaver_forest_display": {
+		"type": "checkbox",
+		"label": "Forest Fuelweaver",
+		"value": true,
+		"group": "Caves Boss"
+	},
+	"fuelweaver_forest_command_key": {
+		"type": "text",
+		"label": "Forest Fuelweaver command key:",
+		"value": "forest_fuelweaver",
+		"group": "Caves Boss"
+	},
+	"nightmare_werepig_display": {
+		"type": "checkbox",
+		"label": "Nightmare Werepig",
+		"value": true,
+		"group": "Caves Boss"
+	},
+	"nightmare_werepig_command_key": {
+		"type": "text",
+		"label": "Nightmare Werepig command key:",
+		"value": "nightmare_werepig",
+		"group": "Caves Boss"
+	},
+	"toadstool_display": {
+		"type": "checkbox",
+		"label": "Toadstool",
+		"value": true,
+		"group": "Caves Boss"
+	},
+	"toadstool_command_key": {
+		"type": "text",
+		"label": "Toadstool command key:",
+		"value": "toadstool",
+		"group": "Caves Boss"
+	},
+	"toadstool_misery_display": {
+		"type": "checkbox",
+		"label": "Toadstool Misery",
+		"value": true,
+		"group": "Caves Boss"
+	},
+	"toadstool_misery_command_key": {
+		"type": "text",
+		"label": "Toadstool Misery command key:",
+		"value": "toadstool_misery",
+		"group": "Caves Boss"
+	},
+
+	"crab_king_display": {
+		"type": "checkbox",
+		"label": "Crab King",
+		"value": true,
+		"group": "Oceans Boss"
+	},
+	"crab_king_command_key": {
+		"type": "text",
+		"label": "Crab King command key:",
+		"value": "crab_king",
+		"group": "Oceans Boss"
+	},
+	"frostjaw_display": {
+		"type": "checkbox",
+		"label": "Frostjaw",
+		"value": true,
+		"group": "Oceans Boss"
+	},
+	"frostjaw_command_key": {
+		"type": "text",
+		"label": "Frostjaw command key:",
+		"value": "frostjaw",
+		"group": "Oceans Boss"
+	},
+	"malbatross_display": {
+		"type": "checkbox",
+		"label": "Malbatross",
+		"value": true,
+		"group": "Oceans Boss"
+	},
+	"malbatross_command_key": {
+		"type": "text",
+		"label": "Malbatross command key:",
+		"value": "malbatross",
+		"group": "Oceans Boss"
+	},
+
+	"bearger_mutated_display": {
+		"type": "checkbox",
+		"label": "Mutated Bearger",
+		"value": true,
+		"group": "Mutated Boss"
+	},
+	"bearger_mutated_command_key": {
+		"type": "text",
+		"label": "Mutated Bearger command key:",
+		"value": "bearger_mutated",
+		"group": "Mutated Boss"
+	},
+	"deerclops_mutated_display": {
+		"type": "checkbox",
+		"label": "Mutated Deerclops",
+		"value": true,
+		"group": "Mutated Boss"
+	},
+	"deerclops_mutated_command_key": {
+		"type": "text",
+		"label": "Mutated Deerclops command key:",
+		"value": "deerclops_mutated",
+		"group": "Mutated Boss"
+	},
+	"warg_mutated_display": {
+		"type": "checkbox",
+		"label": "Mutated Warg",
+		"value": true,
+		"group": "Mutated Boss"
+	},
+	"warg_mutated_command_key": {
+		"type": "text",
+		"label": "Mutated Warg command key:",
+		"value": "warg_mutated",
+		"group": "Mutated Boss"
+	},
+
+	"bearger_winter_display": {
+		"type": "checkbox",
+		"label": "Winter's Feast Bearger",
+		"value": true,
+		"group": "Winter's Feast Boss"
+	},
+	"bearger_winter_command_key": {
+		"type": "text",
+		"label": "Winter's Feast Bearger command key:",
+		"value": "bearger_winter",
+		"group": "Winter's Feast Boss"
+	},
+	"deerclops_winter_display": {
+		"type": "checkbox",
+		"label": "Winter's Feast Deerclops",
+		"value": true,
+		"group": "Winter's Feast Boss"
+	},
+	"deerclops_winter_command_key": {
+		"type": "text",
+		"label": "Winter's Feast Deerclops command key:",
+		"value": "deerclops_winter",
+		"group": "Winter's Feast Boss"
+	},
+	"dragonfly_winter_display": {
+		"type": "checkbox",
+		"label": "Winter's Feast Dragonfly",
+		"value": true,
+		"group": "Winter's Feast Boss"
+	},
+	"dragonfly_winter_command_key": {
+		"type": "text",
+		"label": "Winter's Feast Dragonfly command key:",
+		"value": "dragonfly_winter",
+		"group": "Winter's Feast Boss"
+	},
+	"goose_winter_display": {
+		"type": "checkbox",
+		"label": "Winter's Feast Goose",
+		"value": true,
+		"group": "Winter's Feast Boss"
+	},
+	"goose_winter_command_key": {
+		"type": "text",
+		"label": "Winter's Feast Goose command key:",
+		"value": "goose_winter",
+		"group": "Winter's Feast Boss"
+	},
+
+	"quacken_display": {
+		"type": "checkbox",
+		"label": "Quacken",
+		"value": true,
+		"group": "Shipwrecked Boss"
+	},
+	"quacken_command_key": {
+		"type": "text",
+		"label": "Quacken command key:",
+		"value": "quacken",
+		"group": "Shipwrecked Boss"
+	},
+	"sealnado_display": {
+		"type": "checkbox",
+		"label": "Sealnado",
+		"value": true,
+		"group": "Shipwrecked Boss"
+	},
+	"sealnado_command_key": {
+		"type": "text",
+		"label": "Sealnado command key:",
+		"value": "sealnado",
+		"group": "Shipwrecked Boss"
+	},
+	"tiger_shark_display": {
+		"type": "checkbox",
+		"label": "Tiger Shark",
+		"value": true,
+		"group": "Shipwrecked Boss"
+	},
+	"tiger_shark_command_key": {
+		"type": "text",
+		"label": "Tiger Shark command key:",
+		"value": "tiger_shark",
+		"group": "Shipwrecked Boss"
+	},
+
+	"ancient_herald_display": {
+		"type": "checkbox",
+		"label": "Ancient Herald",
+		"value": true,
+		"group": "Hamlet Boss"
+	},
+	"ancient_herald_command_key": {
+		"type": "text",
+		"label": "Ancient Herald command key:",
+		"value": "ancient_herald",
+		"group": "Hamlet Boss"
+	},
+	"iron_hulk_display": {
+		"type": "checkbox",
+		"label": "Iron Hulk",
+		"value": true,
+		"group": "Hamlet Boss"
+	},
+	"iron_hulk_command_key": {
+		"type": "text",
+		"label": "Iron Hulk command key:",
+		"value": "iron_hulk",
+		"group": "Hamlet Boss"
+	},
+	"pugalisk_display": {
+		"type": "checkbox",
+		"label": "Pugalisk",
+		"value": true,
+		"group": "Hamlet Boss"
+	},
+	"pugalisk_command_key": {
+		"type": "text",
+		"label": "Pugalisk command key:",
+		"value": "pugalisk",
+		"group": "Hamlet Boss"
+	},
+	"queen_womant_display": {
+		"type": "checkbox",
+		"label": "Queen Womant",
+		"value": true,
+		"group": "Hamlet Boss"
+	},
+	"queen_womant_command_key": {
+		"type": "text",
+		"label": "Queen Womant command key:",
+		"value": "queen_womant",
+		"group": "Hamlet Boss"
+	}
+}
