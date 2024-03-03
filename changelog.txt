@@ -1,0 +1,22 @@
+ℹ️ v24.03.03
+✨ Features ✨
+-enable to toggle boss state on click
+
+⌨️ Commands ⌨️
+-enable moderators to use commands
+-toggle command
+-set todo command
+-set done command
+-set all done command
+-reset command
+
+💅 Appearance 💅
+-option to switch between static and animated pictures
+-option to switch between row and column layout
+-option to change the bosses size
+-option to change the todo bosses opacity
+-option to change the done bosses opacity
+
+👾 Bosses 👾
+-new boss types: world, caves, oceans, mutated, winter's feat, shipwrecked, hamlet
+-new bosses: antlion, bearger, bee queen, celestial champion, deerclops, dragonfly, ewecus, eye of terror, retinazer, spazmatism, goose, klaus, lord of the fruit flies, shadow pieces, spider queen, treeguard, warg, ancient guardian, ancient fuelweaver, caves fuelweaver, forest fuelweaver, toadstool, misery toadstool, crab king, frostjaw, malbatross, mutated bearger, mutated deerclops, mutated warg, winter's feat beager, winter's feat deerclops, winter's feat dragonfly, winter's feat goose, quacken, sealnado, tiger shark, iron hulk, pugalisk, queen womant
