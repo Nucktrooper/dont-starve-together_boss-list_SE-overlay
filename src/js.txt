@@ -1,4 +1,4 @@
-// v24.03.03
+// v24.03.05
 
 const bossList = {
 	'ancient_guardian': {
@@ -15,16 +15,6 @@ const bossList = {
 		'static': 'https://i.imgur.com/B1pnBqp.png',
 		'type': 'world'
 	},
-	'bearger_winter': {
-		'static': 'https://i.imgur.com/7ZaYFZX.png',
-		'animated': 'https://i.imgur.com/hTPBSkS.gif',
-		'type': 'winter'
-	},
-	'bearger_mutated': {
-		'static': 'https://i.imgur.com/tyUyTdx.png',
-		'animated': 'https://i.imgur.com/AOyCCMN.gif',
-		'type': 'mutated'
-	},
 	'bee_queen': {
 		'static': 'https://i.imgur.com/pQ7CB5R.png',
 		'animated': 'https://i.imgur.com/cVVMQC4.gif',
@@ -35,33 +25,14 @@ const bossList = {
 		'animated': 'https://i.imgur.com/Oq7iYaU.gif',
 		'type': 'world'
 	},
-	'crab_king': {
-		'static': 'https://i.imgur.com/Re4bNfx.png',
-		'animated': 'https://i.imgur.com/y3SoVhk.gif',
-		'type': 'oceans'
-	},
 	'deerclops': {
 		'static': 'https://i.imgur.com/Iwt9x0r.png',
 		'animated': 'https://i.imgur.com/f0Vnm45.gif',
 		'type': 'world'
 	},
-	'deerclops_winter': {
-		'static': 'https://i.imgur.com/mPKs718.png',
-		'animated': 'https://i.imgur.com/9jhlk6C.gif',
-		'type': 'winter'
-	},
-	'deerclops_mutated': {
-		'static': 'https://i.imgur.com/GtX7BxB.png',
-		'animated': 'https://i.imgur.com/UV0ae6q.gif',
-		'type': 'mutated'
-	},
 	'dragonfly': {
 		'static': 'https://i.imgur.com/MDZzHxE.png',
 		'type': 'world'
-	},
-	'dragonfly_winter': {
-		'static': 'https://i.imgur.com/ETtKOTT.png',
-		'type': 'winter'
 	},
 	'ewecus': {
 		'static': 'https://i.imgur.com/nG0hfPr.png',
@@ -83,24 +54,6 @@ const bossList = {
 		'animated': 'https://i.imgur.com/HfavzzY.gif',
 		'type': 'world'
 	},
-	'frostjaw': {
-		'static': 'https://i.imgur.com/JXVprpD.png',
-		'animated': 'https://i.imgur.com/cBEJuf0.gif',
-		'type': 'oceans'
-	},
-	'fuelweaver_ancient': {
-		'static': 'https://i.imgur.com/CF39ghS.png',
-		'animated': 'https://i.imgur.com/4Rin8Ch.gif',
-		'type': 'caves'
-	},
-	'fuelweaver_caves': {
-		'static': 'https://i.imgur.com/5pX9bdW.png',
-		'type': 'caves'
-	},
-	'fuelweaver_forest': {
-		'static': 'https://i.imgur.com/SfDhWqQ.png',
-		'type': 'caves'
-	},
 	'goose': {
 		'static': 'https://i.imgur.com/AiPcshK.png',
 		'animated': 'https://i.imgur.com/CjxSt81.gif',
@@ -121,16 +74,6 @@ const bossList = {
 		'animated': 'https://i.imgur.com/iE4yTTX.gif',
 		'type': 'world'
 	},
-	'malbatross': {
-		'static': 'https://i.imgur.com/LetTC0O.png',
-		'animated': 'https://i.imgur.com/raeBe6Z.gif',
-		'type': 'oceans'
-	},
-	'nightmare_werepig': {
-		'static': 'https://i.imgur.com/8y43dFv.png',
-		'animated': 'https://i.imgur.com/AxzTnEx.gif',
-		'type': 'caves'
-	},
 	'shadow_pieces': {
 		'static': 'https://i.imgur.com/NeIqEBo.png',
 		'type': 'world'
@@ -139,6 +82,50 @@ const bossList = {
 		'static': 'https://i.imgur.com/PdDmZ8X.png',
 		'animated': 'https://i.imgur.com/5EYVNny.gif',
 		'type': 'world'
+	},
+	'treeguard': {
+		'static': 'https://i.imgur.com/uHfJVKZ.png',
+		'type': 'world'
+	},
+	'warg': {
+		'static': 'https://i.imgur.com/lB98yi5.png',
+		'animated': 'https://i.imgur.com/OliA5IX.gif',
+		'type': 'world'
+	},
+
+	'crab_king': {
+		'static': 'https://i.imgur.com/Re4bNfx.png',
+		'animated': 'https://i.imgur.com/y3SoVhk.gif',
+		'type': 'oceans'
+	},
+	'frostjaw': {
+		'static': 'https://i.imgur.com/JXVprpD.png',
+		'animated': 'https://i.imgur.com/cBEJuf0.gif',
+		'type': 'oceans'
+	},
+	'malbatross': {
+		'static': 'https://i.imgur.com/LetTC0O.png',
+		'animated': 'https://i.imgur.com/raeBe6Z.gif',
+		'type': 'oceans'
+	},
+
+	'fuelweaver_ancient': {
+		'static': 'https://i.imgur.com/CF39ghS.png',
+		'animated': 'https://i.imgur.com/4Rin8Ch.gif',
+		'type': 'caves'
+	},
+	'fuelweaver_caves': {
+		'static': 'https://i.imgur.com/5pX9bdW.png',
+		'type': 'caves'
+	},
+	'fuelweaver_forest': {
+		'static': 'https://i.imgur.com/SfDhWqQ.png',
+		'type': 'caves'
+	},
+	'nightmare_werepig': {
+		'static': 'https://i.imgur.com/8y43dFv.png',
+		'animated': 'https://i.imgur.com/AxzTnEx.gif',
+		'type': 'caves'
 	},
 	'toadstool': {
 		'static': 'https://i.imgur.com/E39U3ZA.png',
@@ -150,19 +137,63 @@ const bossList = {
 		'animated': 'https://i.imgur.com/6y4sTv9.gif',
 		'type': 'caves'
 	},
-	'treeguard': {
-		'static': 'https://i.imgur.com/uHfJVKZ.png',
-		'type': 'world'
+
+	'bearger_mutated': {
+		'static': 'https://i.imgur.com/tyUyTdx.png',
+		'animated': 'https://i.imgur.com/AOyCCMN.gif',
+		'type': 'mutated'
 	},
-	'warg': {
-		'static': 'https://i.imgur.com/lB98yi5.png',
-		'animated': 'https://i.imgur.com/OliA5IX.gif',
-		'type': 'world'
+	'deerclops_mutated': {
+		'static': 'https://i.imgur.com/GtX7BxB.png',
+		'animated': 'https://i.imgur.com/Fpf4gxc.gif',
+		'type': 'mutated'
 	},
 	'warg_mutated': {
 		'static': 'https://i.imgur.com/UFNEaZG.png',
 		'animated': 'https://i.imgur.com/K3vBbJQ.gif',
 		'type': 'mutated'
+	},
+
+	'bearger_winter': {
+		'static': 'https://i.imgur.com/7ZaYFZX.png',
+		'animated': 'https://i.imgur.com/hTPBSkS.gif',
+		'type': 'winter'
+	},
+	'deerclops_winter': {
+		'static': 'https://i.imgur.com/mPKs718.png',
+		'animated': 'https://i.imgur.com/9jhlk6C.gif',
+		'type': 'winter'
+	},
+	'dragonfly_winter': {
+		'static': 'https://i.imgur.com/ETtKOTT.png',
+		'animated': 'https://i.imgur.com/YrZmiQc.gif',
+		'type': 'winter'
+	},
+
+	'boarilla': {
+		'static': 'https://i.imgur.com/xFytous.png',
+		'animated': 'https://i.imgur.com/YBkACNw.gif',
+		'type': 'forge'
+	},
+	'grand_forge_boarrior': {
+		'static': 'https://i.imgur.com/VOQnAEF.png',
+		'animated': 'https://i.imgur.com/c6y2lKO.gif',
+		'type': 'forge'
+	},
+	'infernal_swineclops': {
+		'static': 'https://i.imgur.com/wK2sdOm.png',
+		'animated': 'https://i.imgur.com/tm3BDcn.gif',
+		'type': 'forge'
+	},
+	'rhinocebro': {
+		'static': 'https://i.imgur.com/ZDkbphu.png',
+		'animated': 'https://i.imgur.com/RWe1uLz.gif',
+		'type': 'forge'
+	},
+
+	'palm_treeguard': {
+		'static': 'https://i.imgur.com/kOBz85x.png',
+		'type': 'shipwrecked'
 	},
 	'quacken': {
 		'static': 'https://i.imgur.com/YwaP1zX.png',
@@ -178,6 +209,7 @@ const bossList = {
 		'animated': 'https://i.imgur.com/WXgMc1r.gif',
 		'type': 'shipwrecked'
 	},
+
 	'ancient_herald': {
 		'static': 'https://i.imgur.com/1eVzFMb.png',
 		'animated': 'https://i.imgur.com/5PfK25Q.gif',
@@ -218,23 +250,23 @@ window.addEventListener('onWidgetLoad', function(obj) {
 	if (widgetData.orientation === 'column') {
 		addStyle('#boss-list', 'flex-direction', 'column');
 		addStyle('#boss-list > img', 'width', `${widgetData.boss_size}px`);
-		} else {
+	} else {
 		addStyle('#boss-list', 'flex-direction', 'row');
 		addStyle('#boss-list > img', 'height', `${widgetData.boss_size}px`);
-		}
+	}
 
 	if (widgetData.boss_opacity === 0) {
 		addStyle('#boss-list > img:not(.done)', 'display', 'none');
 	} else {
 		addStyle('#boss-list > img:not(.done)', 'opacity', widgetData.boss_opacity / 100);
-		}
+	}
 	if (widgetData.boss_done_opacity === 0) {
 		addStyle('#boss-list > img.done', 'display', 'none');
 	} else {
 		addStyle('#boss-list > img.done', 'opacity', widgetData.boss_done_opacity / 100);
-		}
+	}
 
-	['world', 'caves', 'oceans', 'mutated', 'winter', 'shipwrecked', 'hamlet']
+	['world', 'oceans', 'caves', 'mutated', 'winter', 'forge', 'shipwrecked', 'hamlet']
 	.filter((bossType) => widgetData[`${bossType}_boss_type_display`])
 	.forEach((bossType) => {
 		const bosses = Object.entries(bossList)
@@ -258,7 +290,7 @@ window.addEventListener('onEventReceived', function(obj) {
 	const event = obj.detail.event;
 
 	if (listener === 'message') {
-				const [command, ...args] = event.data.text.split(' ');
+		const [command, ...args] = event.data.text.split(' ');
 		const isBroadcaster = event.data.badges.some(badge => badge.type === 'broadcaster');
 		const isModerator = event.data.badges.some(badge => badge.type === 'moderator');
 		if (!isBroadcaster && (!allowModerators || !isModerator)) return;
@@ -283,7 +315,7 @@ window.addEventListener('onEventReceived', function(obj) {
 		}
 		if (setTodoCommand && (command === setTodoCommand)) {
 			return progress.setTodo(bossKey);
-				}
+		}
 		if (setDoneCommand && (command === setDoneCommand)) { 
 			return progress.setDone(bossKey);
 		}
@@ -326,14 +358,14 @@ const progress = (() => {
 					setBossDones(obj);
 				}
 			});
-				},
+		},
 		toggle: (bossKey) => {
 			if (dones.includes(bossKey)) {
 				setBossDones(dones.filter(key => key !== bossKey));
 			} else {
 				setBossDones([...dones, bossKey]);
 			}
-				},
+		},
 		setTodo: (bossKey) => {
 			if (dones.includes(bossKey)) {
 				setBossDones(dones.filter(key => key !== bossKey));
