@@ -596,6 +596,18 @@
 		"group": "🔨 Forge Boss 🔨"
 	},
 
+	"palm_treeguard_display": {
+		"type": "checkbox",
+		"label": "Palm Treeguard",
+		"value": true,
+		"group": "🦜 Shipwrecked Boss 🦜"
+	},
+	"palm_treeguard_command_key": {
+		"type": "text",
+		"label": "Palm Treeguard command key:",
+		"value": "palm_treeguard",
+		"group": "🦜 Shipwrecked Boss 🦜"
+	},
 	"quacken_display": {
 		"type": "checkbox",
 		"label": "Quacken",

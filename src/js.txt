@@ -191,6 +191,10 @@ const bossList = {
 		'type': 'forge'
 	},
 
+	'palm_treeguard': {
+		'static': 'https://i.imgur.com/kOBz85x.png',
+		'type': 'shipwrecked'
+	},
 	'quacken': {
 		'static': 'https://i.imgur.com/YwaP1zX.png',
 		'type': 'shipwrecked'
