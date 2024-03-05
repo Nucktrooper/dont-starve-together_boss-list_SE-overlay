@@ -1,3 +1,9 @@
+ℹ️ v24.03.05
+👾 Bosses 👾
+-new boss type: forge
+-new bosses: palm_treeguard, boarilla, grand_forge_boarrior, infernal_swineclops, rhinocebro
+-new boss gif: deerclops_mutated
+
 ℹ️ v24.03.03
 ✨ Features ✨
 -enable to toggle boss state on click
@@ -18,5 +24,5 @@
 -option to change the done bosses opacity
 
 👾 Bosses 👾
--new boss types: world, caves, oceans, mutated, winter's feat, shipwrecked, hamlet
+-new boss types: world, oceans, caves, mutated, winter's feat, shipwrecked, hamlet
 -new bosses: antlion, bearger, bee queen, celestial champion, deerclops, dragonfly, ewecus, eye of terror, retinazer, spazmatism, goose, klaus, lord of the fruit flies, shadow pieces, spider queen, treeguard, warg, ancient guardian, ancient fuelweaver, caves fuelweaver, forest fuelweaver, toadstool, misery toadstool, crab king, frostjaw, malbatross, mutated bearger, mutated deerclops, mutated warg, winter's feat beager, winter's feat deerclops, winter's feat dragonfly, winter's feat goose, quacken, sealnado, tiger shark, iron hulk, pugalisk, queen womant
