@@ -145,7 +145,7 @@ const bossList = {
 	},
 	'deerclops_mutated': {
 		'static': 'https://i.imgur.com/GtX7BxB.png',
-		'animated': 'https://i.imgur.com/UV0ae6q.gif',
+		'animated': 'https://i.imgur.com/Fpf4gxc.gif',
 		'type': 'mutated'
 	},
 	'warg_mutated': {
