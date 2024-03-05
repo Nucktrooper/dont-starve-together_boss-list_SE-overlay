@@ -73,27 +73,31 @@ All bosses are set to "to do" by default and can be set to "done" to be highligh
 
 ### 👾 Boss Types 👾
 - 🌄 World: Display World bosses.
-- 🕳️ Caves: Display Caves bosses.
 - 🌊 Oceans: Display Oceans bosses.
+- 🕳️ Caves: Display Caves bosses.
 - 🦠 Mutated: Display Mutated bosses.
 - ❄️ Winter's Feast: Display Winter's Feast bosses.
+- 🔨 Forge: Display Forge bosses.
 - 🦜 Shipwrecked: Display Shipwrecked bosses.
 - 🍖 Hamlet: Display Hamlet bosses.
 
 ### 🌄 World Boss 🌄
 - You can enable / disable specific World bosses and change their keys for commands.
 
-### 🕳️ Caves Boss 🕳️
-- You can enable / disable specific Caves bosses and change their keys for commands.
-
 ### 🌊 Oceans Boss 🌊
 - You can enable / disable specific Oceans bosses and change their keys for commands.
+
+### 🕳️ Caves Boss 🕳️
+- You can enable / disable specific Caves bosses and change their keys for commands.
 
 ### 🦠 Mutated Boss 🦠
 - You can enable / disable specific Mutated bosses and change their keys for commands.
 
 ### ❄️ Winter's Feast Boss ❄️
 - You can enable / disable specific Winter's Feast bosses and change their keys for commands.
+
+### 🔨 Forge Boss 🔨
+- You can enable / disable specific Forge bosses and change their keys for commands.
 
 ### 🦜 Shipwrecked Boss 🦜
 - You can enable / disable specific Shipwrecked bosses and change their keys for commands.
