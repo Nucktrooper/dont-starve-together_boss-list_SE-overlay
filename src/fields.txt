@@ -91,15 +91,15 @@
 		"value": true,
 		"group": "👾 Boss Types 👾"
 	},
-	"caves_boss_type_display": {
-		"type": "checkbox",
-		"label": "🕳️ Caves",
-		"value": true,
-		"group": "👾 Boss Types 👾"
-	},
 	"oceans_boss_type_display": {
 		"type": "checkbox",
 		"label": "🌊 Oceans",
+		"value": true,
+		"group": "👾 Boss Types 👾"
+	},
+	"caves_boss_type_display": {
+		"type": "checkbox",
+		"label": "🕳️ Caves",
 		"value": true,
 		"group": "👾 Boss Types 👾"
 	},
@@ -112,6 +112,12 @@
 	"winter_boss_type_display": {
 		"type": "checkbox",
 		"label": "❄️ Winter's Feast",
+		"value": true,
+		"group": "👾 Boss Types 👾"
+	},
+	"forge_boss_type_display": {
+		"type": "checkbox",
+		"label": "🔨 Forge",
 		"value": true,
 		"group": "👾 Boss Types 👾"
 	},
@@ -333,6 +339,43 @@
 		"group": "🌄 World Boss 🌄"
 	},
 
+	"crab_king_display": {
+		"type": "checkbox",
+		"label": "Crab King",
+		"value": true,
+		"group": "🌊 Oceans Boss 🌊"
+	},
+	"crab_king_command_key": {
+		"type": "text",
+		"label": "Crab King command key:",
+		"value": "crab_king",
+		"group": "🌊 Oceans Boss 🌊"
+	},
+	"frostjaw_display": {
+		"type": "checkbox",
+		"label": "Frostjaw",
+		"value": true,
+		"group": "🌊 Oceans Boss 🌊"
+	},
+	"frostjaw_command_key": {
+		"type": "text",
+		"label": "Frostjaw command key:",
+		"value": "frostjaw",
+		"group": "🌊 Oceans Boss 🌊"
+	},
+	"malbatross_display": {
+		"type": "checkbox",
+		"label": "Malbatross",
+		"value": true,
+		"group": "🌊 Oceans Boss 🌊"
+	},
+	"malbatross_command_key": {
+		"type": "text",
+		"label": "Malbatross command key:",
+		"value": "malbatross",
+		"group": "🌊 Oceans Boss 🌊"
+	},
+
 	"ancient_guardian_display": {
 		"type": "checkbox",
 		"label": "Ancient Guardian",
@@ -416,43 +459,6 @@
 		"label": "Toadstool Misery command key:",
 		"value": "toadstool_misery",
 		"group": "🕳️ Caves Boss 🕳️"
-	},
-
-	"crab_king_display": {
-		"type": "checkbox",
-		"label": "Crab King",
-		"value": true,
-		"group": "🌊 Oceans Boss 🌊"
-	},
-	"crab_king_command_key": {
-		"type": "text",
-		"label": "Crab King command key:",
-		"value": "crab_king",
-		"group": "🌊 Oceans Boss 🌊"
-	},
-	"frostjaw_display": {
-		"type": "checkbox",
-		"label": "Frostjaw",
-		"value": true,
-		"group": "🌊 Oceans Boss 🌊"
-	},
-	"frostjaw_command_key": {
-		"type": "text",
-		"label": "Frostjaw command key:",
-		"value": "frostjaw",
-		"group": "🌊 Oceans Boss 🌊"
-	},
-	"malbatross_display": {
-		"type": "checkbox",
-		"label": "Malbatross",
-		"value": true,
-		"group": "🌊 Oceans Boss 🌊"
-	},
-	"malbatross_command_key": {
-		"type": "text",
-		"label": "Malbatross command key:",
-		"value": "malbatross",
-		"group": "🌊 Oceans Boss 🌊"
 	},
 
 	"bearger_mutated_display": {
@@ -539,6 +545,55 @@
 		"label": "Winter's Feast Goose command key:",
 		"value": "goose_winter",
 		"group": "❄️ Winter's Feast Boss ❄️"
+	},
+
+	"boarilla_display": {
+		"type": "checkbox",
+		"label": "Boarilla",
+		"value": true,
+		"group": "🔨 Forge Boss 🔨"
+	},
+	"boarilla_command_key": {
+		"type": "text",
+		"label": "Boarilla command key:",
+		"value": "boarilla",
+		"group": "🔨 Forge Boss 🔨"
+	},
+	"grand_forge_boarrior_display": {
+		"type": "checkbox",
+		"label": "Grand Forge Boarrior",
+		"value": true,
+		"group": "🔨 Forge Boss 🔨"
+	},
+	"grand_forge_boarrior_command_key": {
+		"type": "text",
+		"label": "Grand Forge Boarrior command key:", 
+		"value": "grand_forge_boarrior",
+		"group": "🔨 Forge Boss 🔨"
+	},
+	"infernal_swineclops_display": {
+		"type": "checkbox",
+		"label": "Infernal Swineclops",
+		"value": true,
+		"group": "🔨 Forge Boss 🔨"
+	},
+	"infernal_swineclops_command_key": {
+		"type": "text",
+		"label": "Infernal Swineclops command key:",
+		"value": "infernal_swineclops",
+		"group": "🔨 Forge Boss 🔨"
+	},
+	"rhinocebro_display": {
+		"type": "checkbox",
+		"label": "Rhinocebro",
+		"value": true,
+		"group": "🔨 Forge Boss 🔨"
+	},
+	"rhinocebro_command_key": {
+		"type": "text",
+		"label": "Rhinocebro command key:",
+		"value": "rhinocebro",
+		"group": "🔨 Forge Boss 🔨"
 	},
 
 	"quacken_display": {
