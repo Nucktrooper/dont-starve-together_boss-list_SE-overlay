@@ -6,6 +6,10 @@ body {
 	overflow: hidden;
 }
 
+.hidden {
+	display: none !important;
+}
+
 #boss-list {
 	align-content: baseline;
 	display: flex;
@@ -22,4 +26,261 @@ body {
 }
 #boss-list > img.done {
 	opacity: 1;
+}
+
+#boss-list > img#antlion {
+	content: url('https://i.imgur.com/avzMm8L.png')
+}
+#boss-list.animated > img#antlion {
+	content: url('https://i.imgur.com/F72N6ZK.gif')
+}
+#boss-list > img#bearger {
+	content: url('https://i.imgur.com/B1pnBqp.png')
+}
+#boss-list > img#bee_queen {
+	content: url('https://i.imgur.com/pQ7CB5R.png')
+}
+#boss-list.animated > img#bee_queen {
+	content: url('https://i.imgur.com/cVVMQC4.gif')
+}
+#boss-list > img#celestial_champion {
+	content: url('https://i.imgur.com/lkCli0b.png')
+}
+#boss-list.animated > img#celestial_champion {
+	content: url('https://i.imgur.com/Oq7iYaU.gif')
+}
+#boss-list > img#deerclops {
+	content: url('https://i.imgur.com/Iwt9x0r.png')
+}
+#boss-list.animated > img#deerclops {
+	content: url('https://i.imgur.com/f0Vnm45.gif')
+}
+#boss-list > img#dragonfly {
+	content: url('https://i.imgur.com/MDZzHxE.png')
+}
+#boss-list > img#ewecus {
+	content: url('https://i.imgur.com/nG0hfPr.png')
+}
+#boss-list.animated > img#ewecus {
+	content: url('https://i.imgur.com/P1cto8U.gif')
+}
+#boss-list > img#eye_of_terror {
+	content: url('https://i.imgur.com/FOgjfkU.png')
+}
+#boss-list.animated > img#eye_of_terror {
+	content: url('https://i.imgur.com/Ddsie1d.gif')
+}
+#boss-list > img#retinazor {
+	content: url('https://i.imgur.com/ERoFJHT.png')
+}
+#boss-list.animated > img#retinazor {
+	content: url('https://i.imgur.com/ncWQEjB.gif')
+}
+#boss-list > img#spazmatism {
+	content: url('https://i.imgur.com/WI6euO7.png')
+}
+#boss-list.animated > img#spazmatism {
+	content: url('https://i.imgur.com/HfavzzY.gif')
+}
+#boss-list > img#goose {
+	content: url('https://i.imgur.com/AiPcshK.png')
+}
+#boss-list.animated > img#goose {
+	content: url('https://i.imgur.com/CjxSt81.gif')
+}
+#boss-list > img#klaus {
+	content: url('https://i.imgur.com/nP61g5H.png')
+}
+#boss-list.animated > img#klaus {
+	content: url('https://i.imgur.com/D2HFkbk.gif')
+}
+#boss-list > img#lord_of_the_fruit_flies {
+	content: url('https://i.imgur.com/OTmcVRB.png')
+}
+#boss-list.animated > img#lord_of_the_fruit_flies {
+	content: url('https://i.imgur.com/iE4yTTX.gif')
+}
+#boss-list > img#shadow_pieces {
+	content: url('https://i.imgur.com/NeIqEBo.png')
+}
+#boss-list > img#spider_queen {
+	content: url('https://i.imgur.com/PdDmZ8X.png')
+}
+#boss-list.animated > img#spider_queen {
+	content: url('https://i.imgur.com/5EYVNny.gif')
+}
+#boss-list > img#treeguard {
+	content: url('https://i.imgur.com/uHfJVKZ.png')
+}
+#boss-list > img#warg {
+	content: url('https://i.imgur.com/lB98yi5.png')
+}
+#boss-list.animated > img#warg {
+	content: url('https://i.imgur.com/OliA5IX.gif')
+}
+
+#boss-list > img#crab_king {
+	content: url('https://i.imgur.com/Re4bNfx.png')
+}
+#boss-list.animated > img#crab_king {
+	content: url('https://i.imgur.com/y3SoVhk.gif')
+}
+#boss-list > img#frostjaw {
+	content: url('https://i.imgur.com/JXVprpD.png')
+}
+#boss-list.animated > img#frostjaw {
+	content: url('https://i.imgur.com/cBEJuf0.gif')
+}
+#boss-list > img#malbatross {
+	content: url('https://i.imgur.com/LetTC0O.png')
+}
+#boss-list.animated > img#malbatross {
+	content: url('https://i.imgur.com/raeBe6Z.gif')
+}
+
+#boss-list > img#ancient_guardian {
+	content: url('https://i.imgur.com/gRsvaze.png')
+}
+#boss-list.animated > img#ancient_guardian {
+	content: url('https://i.imgur.com/HuPpWwQ.gif')
+}
+#boss-list > img#fuelweaver_ancient {
+	content: url('https://i.imgur.com/CF39ghS.png')
+}
+#boss-list.animated > img#fuelweaver_ancient {
+	content: url('https://i.imgur.com/4Rin8Ch.gif')
+}
+#boss-list > img#fuelweaver_caves {
+	content: url('https://i.imgur.com/5pX9bdW.png')
+}
+#boss-list > img#fuelweaver_forest {
+	content: url('https://i.imgur.com/SfDhWqQ.png')
+}
+#boss-list > img#nightmare_werepig {
+	content: url('https://i.imgur.com/8y43dFv.png')
+}
+#boss-list.animated > img#nightmare_werepig {
+	content: url('https://i.imgur.com/AxzTnEx.gif')
+}
+#boss-list > img#toadstool {
+	content: url('https://i.imgur.com/E39U3ZA.png')
+}
+#boss-list.animated > img#toadstool {
+	content: url('https://i.imgur.com/Dan0p99.gif')
+}
+#boss-list > img#toadstool_misery {
+	content: url('https://i.imgur.com/jJZhFqk.png')
+}
+#boss-list.animated > img#toadstool_misery {
+	content: url('https://i.imgur.com/6y4sTv9.gif')
+}
+
+#boss-list > img#bearger_mutated {
+	content: url('https://i.imgur.com/tyUyTdx.png')
+}
+#boss-list.animated > img#bearger_mutated {
+	content: url('https://i.imgur.com/AOyCCMN.gif')
+}
+#boss-list > img#deerclops_mutated {
+	content: url('https://i.imgur.com/GtX7BxB.png')
+}
+#boss-list.animated > img#deerclops_mutated {
+	content: url('https://i.imgur.com/Fpf4gxc.gif')
+}
+#boss-list > img#warg_mutated {
+	content: url('https://i.imgur.com/UFNEaZG.png')
+}
+#boss-list.animated > img#warg_mutated {
+	content: url('https://i.imgur.com/K3vBbJQ.gif')
+}
+
+#boss-list > img#bearger_winter {
+	content: url('https://i.imgur.com/7ZaYFZX.png')
+}
+#boss-list.animated > img#bearger_winter {
+	content: url('https://i.imgur.com/hTPBSkS.gif')
+}
+#boss-list > img#deerclops_winter {
+	content: url('https://i.imgur.com/mPKs718.png')
+}
+#boss-list.animated > img#deerclops_winter {
+	content: url('https://i.imgur.com/9jhlk6C.gif')
+}
+#boss-list > img#dragonfly_winter {
+	content: url('https://i.imgur.com/ETtKOTT.png')
+}
+#boss-list.animated > img#dragonfly_winter {
+	content: url('https://i.imgur.com/YrZmiQc.gif')
+}
+#boss-list > img#goose_winter {
+	content: url('https://i.imgur.com/WYIcIdk.png')
+}
+#boss-list.animated > img#goose_winter {
+	content: url('https://i.imgur.com/vyPR8fi.gif')
+}
+
+#boss-list > img#boarilla {
+	content: url('https://i.imgur.com/xFytous.png')
+}
+#boss-list.animated > img#boarilla {
+	content: url('https://i.imgur.com/YBkACNw.gif')
+}
+#boss-list > img#grand_forge_boarrior {
+	content: url('https://i.imgur.com/VOQnAEF.png')
+}
+#boss-list.animated > img#grand_forge_boarrior {
+	content: url('https://i.imgur.com/c6y2lKO.gif')
+}
+#boss-list > img#infernal_swineclops {
+	content: url('https://i.imgur.com/wK2sdOm.png')
+}
+#boss-list.animated > img#infernal_swineclops {
+	content: url('https://i.imgur.com/tm3BDcn.gif')
+}
+#boss-list > img#rhinocebro {
+	content: url('https://i.imgur.com/ZDkbphu.png')
+}
+#boss-list.animated > img#rhinocebro {
+	content: url('https://i.imgur.com/RWe1uLz.gif')
+}
+
+#boss-list > img#palm_treeguard {
+	content: url('https://i.imgur.com/kOBz85x.png')
+}
+#boss-list > img#quacken {
+	content: url('https://i.imgur.com/YwaP1zX.png')
+}
+#boss-list > img#sealnado {
+	content: url('https://i.imgur.com/TPHQQKo.png')
+}
+#boss-list.animated > img#sealnado {
+	content: url('https://i.imgur.com/iqr4wum.gif')
+}
+#boss-list > img#tiger_shark {
+	content: url('https://i.imgur.com/XH6C51k.png')
+}
+#boss-list.animated > img#tiger_shark {
+	content: url('https://i.imgur.com/WXgMc1r.gif')
+}
+
+#boss-list > img#ancient_herald {
+	content: url('https://i.imgur.com/1eVzFMb.png')
+}
+#boss-list.animated > img#ancient_herald {
+	content: url('https://i.imgur.com/5PfK25Q.gif')
+}
+#boss-list > img#iron_hulk {
+	content: url('https://i.imgur.com/O19zaVu.png')
+}
+#boss-list > img#pugalisk {
+	content: url('https://i.imgur.com/SaSygAS.png')
+}
+#boss-list.animated > img#pugalisk {
+	content: url('https://i.imgur.com/CXjpjIZ.gif')
+}
+#boss-list > img#queen_womant {
+	content: url('https://i.imgur.com/XVT2vFl.png')
+}
+#boss-list.animated > img#queen_womant {
+	content: url('https://i.imgur.com/uyttv0d.gif')
 }

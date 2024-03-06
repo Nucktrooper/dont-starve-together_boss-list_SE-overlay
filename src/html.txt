@@ -1,2 +1,56 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<div id="boss-list"></div>
+<div id="boss-list" class="hidden">
+	<img id="antlion" data-type="world" />
+	<img id="bearger" data-type="world" />
+	<img id="bee_queen" data-type="world" />
+	<img id="celestial_champion" data-type="world" />
+	<img id="deerclops" data-type="world" />
+	<img id="dragonfly" data-type="world" />
+	<img id="ewecus" data-type="world" />
+	<img id="eye_of_terror" data-type="world" />
+	<img id="retinazor" data-type="world" />
+	<img id="spazmatism" data-type="world" />
+	<img id="goose" data-type="world" />
+	<img id="klaus" data-type="world" />
+	<img id="lord_of_the_fruit_flies" data-type="world" />
+	<img id="shadow_pieces" data-type="world" />
+	<img id="spider_queen" data-type="world" />
+	<img id="treeguard" data-type="world" />
+	<img id="warg" data-type="world" />
+
+	<img id="crab_king" data-type="oceans" />
+	<img id="frostjaw" data-type="oceans" />
+	<img id="malbatross" data-type="oceans" />
+
+	<img id="ancient_guardian" data-type="caves" />
+	<img id="fuelweaver_ancient" data-type="caves" />
+	<img id="fuelweaver_caves" data-type="caves" />
+	<img id="fuelweaver_forest" data-type="caves" />
+	<img id="nightmare_werepig" data-type="caves" />
+	<img id="toadstool" data-type="caves" />
+	<img id="toadstool_misery" data-type="caves" />
+
+	<img id="bearger_mutated" data-type="mutated" />
+	<img id="deerclops_mutated" data-type="mutated" />
+	<img id="warg_mutated" data-type="mutated" />
+
+	<img id="bearger_winter" data-type="winter" />
+	<img id="deerclops_winter" data-type="winter" />
+	<img id="dragonfly_winter" data-type="winter" />
+	<img id="goose_winter" data-type="winter" />
+
+	<img id="boarilla" data-type="forge" />
+	<img id="grand_forge_boarrior" data-type="forge" />
+	<img id="infernal_swineclops" data-type="forge" />
+	<img id="rhinocebro" data-type="forge" />
+
+	<img id="palm_treeguard" data-type="shipwrecked" />
+	<img id="quacken" data-type="shipwrecked" />
+	<img id="sealnado" data-type="shipwrecked" />
+	<img id="tiger_shark" data-type="shipwrecked" />
+
+	<img id="ancient_herald" data-type="hamlet" />
+	<img id="iron_hulk" data-type="hamlet" />
+	<img id="pugalisk" data-type="hamlet" />
+	<img id="queen_womant" data-type="hamlet" />
+</div>
