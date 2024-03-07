@@ -29,258 +29,258 @@ body {
 }
 
 #boss-list > img#antlion {
-	content: url('https://i.imgur.com/avzMm8L.png')
+	content: url('https://i.postimg.cc/RVFRy94b/antlion.webp')
 }
 #boss-list.animated > img#antlion {
-	content: url('https://i.imgur.com/F72N6ZK.gif')
+	content: url('https://i.postimg.cc/rzXw1MJF/antlion.webp')
 }
 #boss-list > img#bearger {
-	content: url('https://i.imgur.com/B1pnBqp.png')
+	content: url('https://i.postimg.cc/G3zKX9wy/bearger.webp')
 }
 #boss-list > img#bee_queen {
-	content: url('https://i.imgur.com/pQ7CB5R.png')
+	content: url('https://i.postimg.cc/RhCRMxfh/Bee-Queen.webp')
 }
 #boss-list.animated > img#bee_queen {
-	content: url('https://i.imgur.com/cVVMQC4.gif')
+	content: url('https://i.postimg.cc/YCNhxGTc/bee-queen.webp')
 }
 #boss-list > img#celestial_champion {
-	content: url('https://i.imgur.com/lkCli0b.png')
+	content: url('https://i.postimg.cc/ydHjbZ8F/celestial-champion.webp')
 }
 #boss-list.animated > img#celestial_champion {
-	content: url('https://i.imgur.com/Oq7iYaU.gif')
+	content: url('https://i.postimg.cc/8cF7dygw/celestial-champion.webp')
 }
 #boss-list > img#deerclops {
-	content: url('https://i.imgur.com/Iwt9x0r.png')
+	content: url('https://i.postimg.cc/tgPDk5pq/Deerclops.webp')
 }
 #boss-list.animated > img#deerclops {
-	content: url('https://i.imgur.com/f0Vnm45.gif')
+	content: url('https://i.postimg.cc/MKCQ58TB/deerclops.webp')
 }
 #boss-list > img#dragonfly {
-	content: url('https://i.imgur.com/MDZzHxE.png')
+	content: url('https://i.postimg.cc/15CW3XvQ/dragonfly.webp')
 }
 #boss-list > img#ewecus {
-	content: url('https://i.imgur.com/nG0hfPr.png')
+	content: url('https://i.postimg.cc/Vvj8cMqm/ewecus.webp')
 }
 #boss-list.animated > img#ewecus {
-	content: url('https://i.imgur.com/P1cto8U.gif')
+	content: url('https://i.postimg.cc/Tw3L1dkz/ewecus.webp')
 }
 #boss-list > img#eye_of_terror {
-	content: url('https://i.imgur.com/FOgjfkU.png')
+	content: url('https://i.postimg.cc/hvnYTYmR/retinazor.webp')
 }
 #boss-list.animated > img#eye_of_terror {
-	content: url('https://i.imgur.com/Ddsie1d.gif')
+	content: url('https://i.postimg.cc/d3XTgbjz/eye-of-terror.webp')
 }
 #boss-list > img#retinazor {
-	content: url('https://i.imgur.com/ERoFJHT.png')
+	content: url('https://i.postimg.cc/hvnYTYmR/retinazor.webp')
 }
 #boss-list.animated > img#retinazor {
-	content: url('https://i.imgur.com/ncWQEjB.gif')
+	content: url('https://i.postimg.cc/fTtdYbwZ/eye-twin-retinazor.webp')
 }
 #boss-list > img#spazmatism {
-	content: url('https://i.imgur.com/WI6euO7.png')
+	content: url('https://i.postimg.cc/Wz7Hn7mF/spazmatism.webp')
 }
 #boss-list.animated > img#spazmatism {
-	content: url('https://i.imgur.com/HfavzzY.gif')
+	content: url('https://i.postimg.cc/7PQ7Czrm/eye-twin-spazmatism.webp')
 }
 #boss-list > img#goose {
-	content: url('https://i.imgur.com/AiPcshK.png')
+	content: url('https://i.postimg.cc/QxhLTFgK/goose.webp')
 }
 #boss-list.animated > img#goose {
-	content: url('https://i.imgur.com/CjxSt81.gif')
+	content: url('https://i.postimg.cc/4Nm6w5QD/goose.webp')
 }
 #boss-list > img#klaus {
-	content: url('https://i.imgur.com/nP61g5H.png')
+	content: url('https://i.postimg.cc/YSJZq0q9/klaus.webp')
 }
 #boss-list.animated > img#klaus {
-	content: url('https://i.imgur.com/D2HFkbk.gif')
+	content: url('https://i.postimg.cc/Pqh8Gz1r/klaus.webp')
 }
 #boss-list > img#lord_of_the_fruit_flies {
-	content: url('https://i.imgur.com/OTmcVRB.png')
+	content: url('https://i.postimg.cc/9QgsK16y/lord-of-the-fruit-flies.webp')
 }
 #boss-list.animated > img#lord_of_the_fruit_flies {
-	content: url('https://i.imgur.com/iE4yTTX.gif')
+	content: url('https://i.postimg.cc/Bvqt7ZGj/lord-of-the-fruit-flies.webp')
 }
 #boss-list > img#shadow_pieces {
-	content: url('https://i.imgur.com/NeIqEBo.png')
+	content: url('https://i.postimg.cc/pTz79vpB/shadow-pieces.webp')
 }
 #boss-list > img#spider_queen {
-	content: url('https://i.imgur.com/PdDmZ8X.png')
+	content: url('https://i.postimg.cc/G3PVdc0L/spider-queen.webp')
 }
 #boss-list.animated > img#spider_queen {
-	content: url('https://i.imgur.com/5EYVNny.gif')
+	content: url('https://i.postimg.cc/HxY5M4LP/spider-queen.webp')
 }
 #boss-list > img#treeguard {
-	content: url('https://i.imgur.com/uHfJVKZ.png')
+	content: url('https://i.postimg.cc/zGvcCKyv/treeguard.webp')
 }
 #boss-list > img#warg {
-	content: url('https://i.imgur.com/lB98yi5.png')
+	content: url('https://i.postimg.cc/FH6nDzSZ/warg.webp')
 }
 #boss-list.animated > img#warg {
-	content: url('https://i.imgur.com/OliA5IX.gif')
+	content: url('https://i.postimg.cc/NjRrPP9z/warg.webp')
 }
 
 #boss-list > img#crab_king {
-	content: url('https://i.imgur.com/Re4bNfx.png')
+	content: url('https://i.postimg.cc/3RF15xkz/Crab-King.webp')
 }
 #boss-list.animated > img#crab_king {
-	content: url('https://i.imgur.com/y3SoVhk.gif')
+	content: url('https://i.postimg.cc/wxt5Q2VS/crab-king.webp')
 }
 #boss-list > img#frostjaw {
-	content: url('https://i.imgur.com/JXVprpD.png')
+	content: url('https://i.postimg.cc/901LTQVy/Frostjaw.webp')
 }
 #boss-list.animated > img#frostjaw {
-	content: url('https://i.imgur.com/cBEJuf0.gif')
+	content: url('https://i.postimg.cc/hj2m1zz4/frostjaw.webp')
 }
 #boss-list > img#malbatross {
-	content: url('https://i.imgur.com/LetTC0O.png')
+	content: url('https://i.postimg.cc/cLLVFPbs/malbatross.webp')
 }
 #boss-list.animated > img#malbatross {
-	content: url('https://i.imgur.com/raeBe6Z.gif')
+	content: url('https://i.postimg.cc/v8jg8d5K/malbatross.webp')
 }
 
 #boss-list > img#ancient_guardian {
-	content: url('https://i.imgur.com/gRsvaze.png')
+	content: url('https://i.postimg.cc/gkTDP50c/ancient-guardian.webp')
 }
 #boss-list.animated > img#ancient_guardian {
-	content: url('https://i.imgur.com/HuPpWwQ.gif')
+	content: url('https://i.postimg.cc/cLGvYM9M/ancient-guardian.webp')
 }
 #boss-list > img#fuelweaver_ancient {
-	content: url('https://i.imgur.com/CF39ghS.png')
+	content: url('https://i.postimg.cc/FzhP7Lt9/fuelweaver-ancient.webp')
 }
 #boss-list.animated > img#fuelweaver_ancient {
-	content: url('https://i.imgur.com/4Rin8Ch.gif')
+	content: url('https://i.postimg.cc/Cx8jpxtJ/fuelweaver-ancient.webp')
 }
 #boss-list > img#fuelweaver_caves {
-	content: url('https://i.imgur.com/5pX9bdW.png')
+	content: url('https://i.postimg.cc/9Md8mBn8/fuelweaver-cave.webp')
 }
 #boss-list > img#fuelweaver_forest {
-	content: url('https://i.imgur.com/SfDhWqQ.png')
+	content: url('https://i.postimg.cc/NMqCvnp2/fuelweaver-forest.webp')
 }
 #boss-list > img#nightmare_werepig {
-	content: url('https://i.imgur.com/8y43dFv.png')
+	content: url('https://i.postimg.cc/Zq9XSpm2/nightmare-werepig.webp')
 }
 #boss-list.animated > img#nightmare_werepig {
-	content: url('https://i.imgur.com/AxzTnEx.gif')
+	content: url('https://i.postimg.cc/NFW5d1gt/nightmare-werepig.webp')
 }
 #boss-list > img#toadstool {
-	content: url('https://i.imgur.com/E39U3ZA.png')
+	content: url('https://i.postimg.cc/PrtcqBhm/toadstool.webp')
 }
 #boss-list.animated > img#toadstool {
-	content: url('https://i.imgur.com/Dan0p99.gif')
+	content: url('https://i.postimg.cc/JhqHRDQ3/toadstool.webp')
 }
 #boss-list > img#toadstool_misery {
-	content: url('https://i.imgur.com/jJZhFqk.png')
+	content: url('https://i.postimg.cc/MKdLfdKg/toadstool-misery.webp')
 }
 #boss-list.animated > img#toadstool_misery {
-	content: url('https://i.imgur.com/6y4sTv9.gif')
+	content: url('https://i.postimg.cc/rszrnVx1/toadstool-misery.webp')
 }
 
 #boss-list > img#bearger_mutated {
-	content: url('https://i.imgur.com/tyUyTdx.png')
+	content: url('https://i.postimg.cc/d3W93NmB/bearger-mutated.webp')
 }
 #boss-list.animated > img#bearger_mutated {
-	content: url('https://i.imgur.com/AOyCCMN.gif')
+	content: url('https://i.postimg.cc/wMsBR7DG/bearger-mutated.webp')
 }
 #boss-list > img#deerclops_mutated {
-	content: url('https://i.imgur.com/GtX7BxB.png')
+	content: url('https://i.postimg.cc/P5021cGV/deerclops-mutated.webp')
 }
 #boss-list.animated > img#deerclops_mutated {
-	content: url('https://i.imgur.com/Fpf4gxc.gif')
+	content: url('https://i.postimg.cc/KcdPqTp4/deerclops-mutated.webp')
 }
 #boss-list > img#warg_mutated {
-	content: url('https://i.imgur.com/UFNEaZG.png')
+	content: url('https://i.postimg.cc/8CrX3GBV/warg-mutated.webp')
 }
 #boss-list.animated > img#warg_mutated {
-	content: url('https://i.imgur.com/K3vBbJQ.gif')
+	content: url('https://i.postimg.cc/ncgvWDdC/warg-mutated.webp')
 }
 
 #boss-list > img#bearger_winter {
-	content: url('https://i.imgur.com/7ZaYFZX.png')
+	content: url('https://i.postimg.cc/yxqH5nSL/bearger-winter.webp')
 }
 #boss-list.animated > img#bearger_winter {
-	content: url('https://i.imgur.com/hTPBSkS.gif')
+	content: url('https://i.postimg.cc/XJqq32q3/bearger-winter.webp')
 }
 #boss-list > img#deerclops_winter {
-	content: url('https://i.imgur.com/mPKs718.png')
+	content: url('https://i.postimg.cc/jSDMwT1J/deerclops-winter.webp')
 }
 #boss-list.animated > img#deerclops_winter {
-	content: url('https://i.imgur.com/9jhlk6C.gif')
+	content: url('https://i.postimg.cc/W3y34MqZ/deerclops-winter.webp')
 }
 #boss-list > img#dragonfly_winter {
-	content: url('https://i.imgur.com/ETtKOTT.png')
+	content: url('https://i.postimg.cc/J4468Zcx/dragonfly-winter.webp')
 }
 #boss-list.animated > img#dragonfly_winter {
-	content: url('https://i.imgur.com/YrZmiQc.gif')
+	content: url('https://i.postimg.cc/wTmt7bVj/dragonfly-winter.webp')
 }
 #boss-list > img#goose_winter {
-	content: url('https://i.imgur.com/WYIcIdk.png')
+	content: url('https://i.postimg.cc/TY9zqTQ7/goose-winter.webp')
 }
 #boss-list.animated > img#goose_winter {
-	content: url('https://i.imgur.com/vyPR8fi.gif')
+	content: url('https://i.postimg.cc/3wCmWb3v/goose-winter.webp')
 }
 
 #boss-list > img#boarilla {
-	content: url('https://i.imgur.com/xFytous.png')
+	content: url('https://i.postimg.cc/xdt8wr0t/boarilla.webp')
 }
 #boss-list.animated > img#boarilla {
-	content: url('https://i.imgur.com/YBkACNw.gif')
+	content: url('https://i.postimg.cc/bY60QMk0/boarilla.webp')
 }
 #boss-list > img#grand_forge_boarrior {
-	content: url('https://i.imgur.com/VOQnAEF.png')
+	content: url('https://i.postimg.cc/ZYrtn8Nh/grand-forge-boarrior.webp')
 }
 #boss-list.animated > img#grand_forge_boarrior {
-	content: url('https://i.imgur.com/c6y2lKO.gif')
+	content: url('https://i.postimg.cc/qq78PXVC/grand-forge-boarrior.webp')
 }
 #boss-list > img#infernal_swineclops {
-	content: url('https://i.imgur.com/wK2sdOm.png')
+	content: url('https://i.postimg.cc/nrK6WxxL/infernal-sw-ineclops.webp')
 }
 #boss-list.animated > img#infernal_swineclops {
-	content: url('https://i.imgur.com/tm3BDcn.gif')
+	content: url('https://i.postimg.cc/N0hkKHTW/infernal-sw-ineclops.webp')
 }
 #boss-list > img#rhinocebro {
-	content: url('https://i.imgur.com/ZDkbphu.png')
+	content: url('https://i.postimg.cc/D0395ZtD/rhinocebro.webp')
 }
 #boss-list.animated > img#rhinocebro {
-	content: url('https://i.imgur.com/RWe1uLz.gif')
+	content: url('https://i.postimg.cc/wMbhgyg4/rhinocebro.webp')
 }
 
 #boss-list > img#palm_treeguard {
-	content: url('https://i.imgur.com/kOBz85x.png')
+	content: url('https://i.postimg.cc/kgjd97b6/palm-treeguard.webp')
 }
 #boss-list > img#quacken {
-	content: url('https://i.imgur.com/YwaP1zX.png')
+	content: url('https://i.postimg.cc/xT2Q3xQC/quacken.webp')
 }
 #boss-list > img#sealnado {
-	content: url('https://i.imgur.com/TPHQQKo.png')
+	content: url('https://i.postimg.cc/287DcQjx/sealnado.webp')
 }
 #boss-list.animated > img#sealnado {
-	content: url('https://i.imgur.com/iqr4wum.gif')
+	content: url('https://i.postimg.cc/JzHQ7qyN/sealnado.webp')
 }
 #boss-list > img#tiger_shark {
-	content: url('https://i.imgur.com/XH6C51k.png')
+	content: url('https://i.postimg.cc/DfsFsVtH/tiger-shark.webp')
 }
 #boss-list.animated > img#tiger_shark {
-	content: url('https://i.imgur.com/WXgMc1r.gif')
+	content: url('https://i.postimg.cc/R0zwSzxm/tiger-shark.webp')
 }
 
 #boss-list > img#ancient_herald {
-	content: url('https://i.imgur.com/1eVzFMb.png')
+	content: url('https://i.postimg.cc/pTjND81z/ancient-herald.webp')
 }
 #boss-list.animated > img#ancient_herald {
-	content: url('https://i.imgur.com/5PfK25Q.gif')
+	content: url('https://i.postimg.cc/g0vq82Hr/ancient-herald.webp')
 }
 #boss-list > img#iron_hulk {
-	content: url('https://i.imgur.com/O19zaVu.png')
+	content: url('https://i.postimg.cc/FK85dGGh/iron-hulk.webp')
 }
 #boss-list > img#pugalisk {
-	content: url('https://i.imgur.com/SaSygAS.png')
+	content: url('https://i.postimg.cc/fRWh6VJQ/pugalisk.webp')
 }
 #boss-list.animated > img#pugalisk {
-	content: url('https://i.imgur.com/CXjpjIZ.gif')
+	content: url('https://i.postimg.cc/vBhr22js/pugalisk.webp')
 }
 #boss-list > img#queen_womant {
-	content: url('https://i.imgur.com/XVT2vFl.png')
+	content: url('https://i.postimg.cc/MGvJpg7s/queen-womant.webp')
 }
 #boss-list.animated > img#queen_womant {
-	content: url('https://i.imgur.com/uyttv0d.gif')
+	content: url('https://i.postimg.cc/k4qNcPTs/queen-womant.webp')
 }

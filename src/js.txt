@@ -1,4 +1,4 @@
-// v24.03.06
+// v24.03.07
 
 let widgetData = {};
 let allowModerators = true;
@@ -17,6 +17,7 @@ window.addEventListener('onWidgetLoad', function(obj) {
 	setAllDoneCommand = widgetData.set_all_done_command;
 	resetCommand = widgetData.reset_command;
 	bossList = $('#boss-list > img').map((index, elem) => elem.id).get();
+	$('#boss-list').addClass(widgetData.img_type);
 
 	if (widgetData.orientation === 'column') {
 		addStyle('#boss-list', 'flex-direction', 'column');
@@ -41,11 +42,10 @@ window.addEventListener('onWidgetLoad', function(obj) {
 	bossTypes.filter((bossType) => !widgetData[`${bossType}_boss_type_display`])
 		.forEach((bossType) => addStyle(`#boss-list > img[data-type='${bossType}']`, 'display', 'none'));
 
-	$('#boss-list').addClass(widgetData.img_type);
 	bossList.forEach((bossKey) => {
 		$(`#boss-list > img#${bossKey}`).click(() => progress.toggle(bossKey));
 		if (!widgetData[`${bossKey}_display`]) {
-			$(`#boss-list > img#${bossKey}']`).addClass('hidden');
+			$(`#boss-list > img#${bossKey}`).addClass('hidden');
 		}
 	});
 
@@ -96,8 +96,7 @@ window.addEventListener('onEventReceived', function(obj) {
 
 function findBossKey(args) {
 	if (args.length === 0) return;
-	return Object.entries(bossList)
-		.find(([key, value]) => widgetData[`${key}_command_key`].toLowerCase() === args[0].toLowerCase())?.[0];
+	return bossList.find((bossKey) => widgetData[`${bossKey}_command_key`].toLowerCase() === args[0].toLowerCase())?.[0];
 }
 
 function addStyle(selector, key, value) {
@@ -111,12 +110,11 @@ const progress = (() => {
 	const setBossDones = (new_dones) => {
 		dones = new_dones;
 		SE_API.store.set(BOSS_LIST_DATA_NAME, dones);
-		Object.entries(bossList)
-			.filter(([key, value]) => widgetData[`${key}_display`])
-			.forEach(([key, value]) => {
-				$(`#boss-list > img#${key}`).removeClass('done');
-				if (dones.includes(key)) {
-					$(`#boss-list > img#${key}`).addClass('done');
+		bossList
+			.forEach((bossKey) => {
+				$(`#boss-list > img#${bossKey}`).removeClass('done');
+				if (dones.includes(bossKey)) {
+					$(`#boss-list > img#${bossKey}`).addClass('done');
 				}
 			});
 	};
