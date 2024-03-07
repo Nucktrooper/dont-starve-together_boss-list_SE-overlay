@@ -567,7 +567,7 @@
 	},
 	"grand_forge_boarrior_command_key": {
 		"type": "text",
-		"label": "Grand Forge Boarrior command key:", 
+		"label": "Grand Forge Boarrior command key:",
 		"value": "grand_forge_boarrior",
 		"group": "🔨 Forge Boss 🔨"
 	},
