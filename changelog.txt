@@ -1,3 +1,7 @@
+ℹ️ v24.03.07
+👨🏻‍🔧 Fixes 👨🏻‍🔧
+-replace PNGs and GIFs files by WEPBs
+
 ℹ️ v24.03.05
 👾 Bosses 👾
 -new boss type: forge
