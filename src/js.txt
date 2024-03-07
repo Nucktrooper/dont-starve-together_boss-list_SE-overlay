@@ -96,7 +96,7 @@ window.addEventListener('onEventReceived', function(obj) {
 
 function findBossKey(args) {
 	if (args.length === 0) return;
-	return bossList.find((bossKey) => widgetData[`${bossKey}_command_key`].toLowerCase() === args[0].toLowerCase())?.[0];
+	return bossList.find((bossKey) => widgetData[`${bossKey}_command_key`].toLowerCase() === args[0].toLowerCase());
 }
 
 function addStyle(selector, key, value) {
