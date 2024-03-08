@@ -111,10 +111,10 @@ body {
 #boss-list > img#treeguard {
 	content: url('https://i.postimg.cc/zGvcCKyv/treeguard.webp')
 }
-#boss-list > img#warg {
+#boss-list > img#varg {
 	content: url('https://i.postimg.cc/FH6nDzSZ/warg.webp')
 }
-#boss-list.animated > img#warg {
+#boss-list.animated > img#varg {
 	content: url('https://i.postimg.cc/NjRrPP9z/warg.webp')
 }
 
