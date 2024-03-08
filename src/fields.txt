@@ -326,16 +326,16 @@
 		"value": "treeguard",
 		"group": "🌄 World Boss 🌄"
 	},
-	"warg_display": {
+	"varg_display": {
 		"type": "checkbox",
-		"label": "Warg",
+		"label": "Varg",
 		"value": true,
 		"group": "🌄 World Boss 🌄"
 	},
-	"warg_command_key": {
+	"varg_command_key": {
 		"type": "text",
-		"label": "Warg command key:",
-		"value": "warg",
+		"label": "Varg command key:",
+		"value": "varg",
 		"group": "🌄 World Boss 🌄"
 	},
 
@@ -485,16 +485,16 @@
 		"value": "deerclops_mutated",
 		"group": "🦠 Mutated Boss 🦠"
 	},
-	"warg_mutated_display": {
+	"varg_mutated_display": {
 		"type": "checkbox",
-		"label": "Mutated Warg",
+		"label": "Mutated Varg",
 		"value": true,
 		"group": "🦠 Mutated Boss 🦠"
 	},
-	"warg_mutated_command_key": {
+	"varg_mutated_command_key": {
 		"type": "text",
-		"label": "Mutated Warg command key:",
-		"value": "warg_mutated",
+		"label": "Mutated Varg command key:",
+		"value": "varg_mutated",
 		"group": "🦠 Mutated Boss 🦠"
 	},
 

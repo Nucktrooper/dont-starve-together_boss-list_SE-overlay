@@ -16,7 +16,7 @@
 	<img id="shadow_pieces" data-type="world" />
 	<img id="spider_queen" data-type="world" />
 	<img id="treeguard" data-type="world" />
-	<img id="warg" data-type="world" />
+	<img id="varg" data-type="world" />
 
 	<img id="crab_king" data-type="oceans" />
 	<img id="frostjaw" data-type="oceans" />
@@ -32,7 +32,7 @@
 
 	<img id="bearger_mutated" data-type="mutated" />
 	<img id="deerclops_mutated" data-type="mutated" />
-	<img id="warg_mutated" data-type="mutated" />
+	<img id="varg_mutated" data-type="mutated" />
 
 	<img id="bearger_winter" data-type="winter" />
 	<img id="deerclops_winter" data-type="winter" />
