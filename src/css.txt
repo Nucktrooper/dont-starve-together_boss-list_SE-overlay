@@ -16,7 +16,6 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	height: 100%;
-	gap: 2px;
 }
 #boss-list > img {
 	background-repeat: no-repeat;
@@ -65,7 +64,7 @@ body {
 	content: url('https://i.postimg.cc/Tw3L1dkz/ewecus.webp')
 }
 #boss-list > img#eye_of_terror {
-	content: url('https://i.postimg.cc/hvnYTYmR/retinazor.webp')
+	content: url('https://i.postimg.cc/c1c9PXY6/eye-of-terror.webp')
 }
 #boss-list.animated > img#eye_of_terror {
 	content: url('https://i.postimg.cc/d3XTgbjz/eye-of-terror.webp')
