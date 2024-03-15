@@ -65,6 +65,10 @@ All bosses are set to "to do" by default and can be set to "done" to be highligh
 - Reset all bosses: command to reset all bosses to "to do".
 
 ### 💅 Appearance 💅
+- Widget background color
+- Widget background rounding
+- Widget horizontal alignment
+- Widget vertical alignment
 - Images type: set boss pictures to static or animated.
 - Orientation: display the boss list as rows or columns.
 - Boss size: the boss size (height for row layout, width for column layout).
