@@ -7,48 +7,53 @@
 	},
 	"toggle_command": {
 		"type": "text",
-		"label": "Toggle boss:",
+		"label": "Toggle boss",
 		"value": "!dst-boss-toggle",
 		"group": "⌨️ Commands ⌨️"
 	},
 	"set_todo_command": {
 		"type": "text",
-		"label": "Set boss to do:",
+		"label": "Set boss to do",
 		"value": "!dst-boss-todo",
 		"group": "⌨️ Commands ⌨️"
 	},
 	"set_done_command": {
 		"type": "text",
-		"label": "Set boss done:",
+		"label": "Set boss done",
 		"value": "!dst-boss-done",
 		"group": "⌨️ Commands ⌨️"
 	},
 	"set_all_done_command": {
 		"type": "text",
-		"label": "Set all bosses done:",
+		"label": "Set all bosses done",
 		"value": "!dst-boss-alldone",
 		"group": "⌨️ Commands ⌨️"
 	},
 	"reset_command": {
 		"type": "text",
-		"label": "Reset all bosses:",
+		"label": "Reset all bosses",
 		"value": "!dst-boss-reset",
 		"group": "⌨️ Commands ⌨️"
 	},
 
-	"img_type": {
-		"type": "dropdown",
-		"label": "Images type:",
-		"value": "animated",
-		"options": {
-			"static": "static",
-			"animated": "animated"
-		},
+	"widget_bg_color": {
+		"type": "colorpicker",
+		"label": "Widget background color",
+		"value": "#ffffff00",
 		"group": "💅 Appearance 💅"
 	},
-	"orientation": {
+	"widget_bg_rounding": {
+		"type": "number",
+		"min": 0,
+		"max": 100,
+		"step": 5,
+		"label": "Widget background rounding [0-100]",
+		"value": 0,
+		"group": "💅 Appearance 💅"
+	},
+	"widget_orientation": {
 		"type": "dropdown",
-		"label": "Orientation:",
+		"label": "Orientation",
 		"value": "row",
 		"options": {
 			"row": "row",
@@ -56,7 +61,38 @@
 		},
 		"group": "💅 Appearance 💅"
 	},
-
+	"widget_horizontal_align": {
+		"type": "dropdown",
+		"label": "Horizontal alignment",
+		"value": "center",
+		"options": {
+			"start": "start",
+			"center": "center",
+			"end": "end"
+		},
+		"group": "💅 Appearance 💅"
+	},
+	"widget_vertical_align": {
+		"type": "dropdown",
+		"label": "Vertical alignment",
+		"value": "start",
+		"options": {
+			"start": "start",
+			"center": "center",
+			"end": "end"
+		},
+		"group": "💅 Appearance 💅"
+	},
+	"img_type": {
+		"type": "dropdown",
+		"label": "Images type",
+		"value": "animated",
+		"options": {
+			"static": "static",
+			"animated": "animated"
+		},
+		"group": "💅 Appearance 💅"
+	},
 	"boss_size": {
 		"type": "number",
 		"min": 10,
@@ -66,6 +102,12 @@
 		"value": 100,
 		"group": "💅 Appearance 💅"
 	},
+	"boss_bg_color": {
+		"type": "colorpicker",
+		"label": "Boss glow color",
+		"value": "#ffffff00",
+		"group": "💅 Appearance 💅"
+	},
 	"boss_opacity": {
 		"type": "number",
 		"min": 0,
@@ -73,6 +115,12 @@
 		"step": 1,
 		"label": "Boss opacity [0%, 100%]",
 		"value": 30,
+		"group": "💅 Appearance 💅"
+	},
+	"boss_done_bg_color": {
+		"type": "colorpicker",
+		"label": "Boss done glow color",
+		"value": "#ffffff00",
 		"group": "💅 Appearance 💅"
 	},
 	"boss_done_opacity": {
@@ -142,7 +190,7 @@
 	},
 	"antlion_command_key": {
 		"type": "text",
-		"label": "Antlion command key:",
+		"label": "Antlion command key",
 		"value": "antlion",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -154,7 +202,7 @@
 	},
 	"bearger_command_key": {
 		"type": "text",
-		"label": "Bearger command key:",
+		"label": "Bearger command key",
 		"value": "bearger",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -166,7 +214,7 @@
 	},
 	"bee_queen_command_key": {
 		"type": "text",
-		"label": "Bee Queen command key:",
+		"label": "Bee Queen command key",
 		"value": "bee_queen",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -178,7 +226,7 @@
 	},
 	"celestial_champion_command_key": {
 		"type": "text",
-		"label": "Celestial Champion command key:",
+		"label": "Celestial Champion command key",
 		"value": "celestial_champion",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -190,7 +238,7 @@
 	},
 	"deerclops_command_key": {
 		"type": "text",
-		"label": "Deerclops command key:",
+		"label": "Deerclops command key",
 		"value": "deerclops",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -202,19 +250,19 @@
 	},
 	"dragonfly_command_key": {
 		"type": "text",
-		"label": "Dragonfly command key:",
+		"label": "Dragonfly command key",
 		"value": "dragonfly",
 		"group": "🌄 World Boss 🌄"
 	},
 	"ewecus_display": {
 		"type": "checkbox",
-		"label": "ewecus",
+		"label": "Ewecus",
 		"value": true,
 		"group": "🌄 World Boss 🌄"
 	},
 	"ewecus_command_key": {
 		"type": "text",
-		"label": "Ewecus command key:",
+		"label": "Ewecus command key",
 		"value": "ewecus",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -226,7 +274,7 @@
 	},
 	"eye_of_terror_command_key": {
 		"type": "text",
-		"label": "Eye of terror command key:",
+		"label": "Eye of terror command key",
 		"value": "eye_of_terror",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -238,7 +286,7 @@
 	},
 	"retinazor_command_key": {
 		"type": "text",
-		"label": "Retinazor command key:",
+		"label": "Retinazor command key",
 		"value": "retinazor",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -250,7 +298,7 @@
 	},
 	"spazmatism_command_key": {
 		"type": "text",
-		"label": "Spazmatism command key:",
+		"label": "Spazmatism command key",
 		"value": "spazmatism",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -262,7 +310,7 @@
 	},
 	"goose_command_key": {
 		"type": "text",
-		"label": "Goose command key:",
+		"label": "Goose command key",
 		"value": "goose",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -274,7 +322,7 @@
 	},
 	"klaus_command_key": {
 		"type": "text",
-		"label": "Klaus command key:",
+		"label": "Klaus command key",
 		"value": "klaus",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -286,7 +334,7 @@
 	},
 	"lord_of_the_fruit_flies_command_key": {
 		"type": "text",
-		"label": "Lord of the Fruit Flies command key:",
+		"label": "Lord of the Fruit Flies command key",
 		"value": "lord_of_the_fruit_flies",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -298,7 +346,7 @@
 	},
 	"shadow_pieces_command_key": {
 		"type": "text",
-		"label": "Shadow Pieces command key:",
+		"label": "Shadow Pieces command key",
 		"value": "shadow_pieces",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -310,7 +358,7 @@
 	},
 	"spider_queen_command_key": {
 		"type": "text",
-		"label": "Spider Queen command key:",
+		"label": "Spider Queen command key",
 		"value": "spider_queen",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -322,7 +370,7 @@
 	},
 	"treeguard_command_key": {
 		"type": "text",
-		"label": "Treeguard command key:",
+		"label": "Treeguard command key",
 		"value": "treeguard",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -334,7 +382,7 @@
 	},
 	"varg_command_key": {
 		"type": "text",
-		"label": "Varg command key:",
+		"label": "Varg command key",
 		"value": "varg",
 		"group": "🌄 World Boss 🌄"
 	},
@@ -347,7 +395,7 @@
 	},
 	"crab_king_command_key": {
 		"type": "text",
-		"label": "Crab King command key:",
+		"label": "Crab King command key",
 		"value": "crab_king",
 		"group": "🌊 Oceans Boss 🌊"
 	},
@@ -359,7 +407,7 @@
 	},
 	"frostjaw_command_key": {
 		"type": "text",
-		"label": "Frostjaw command key:",
+		"label": "Frostjaw command key",
 		"value": "frostjaw",
 		"group": "🌊 Oceans Boss 🌊"
 	},
@@ -371,7 +419,7 @@
 	},
 	"malbatross_command_key": {
 		"type": "text",
-		"label": "Malbatross command key:",
+		"label": "Malbatross command key",
 		"value": "malbatross",
 		"group": "🌊 Oceans Boss 🌊"
 	},
@@ -384,7 +432,7 @@
 	},
 	"ancient_guardian_command_key": {
 		"type": "text",
-		"label": "Ancient Guardian command key:",
+		"label": "Ancient Guardian command key",
 		"value": "ancient_guardian",
 		"group": "🕳️ Caves Boss 🕳️"
 	},
@@ -396,7 +444,7 @@
 	},
 	"fuelweaver_ancient_command_key": {
 		"type": "text",
-		"label": "Ancient Fuelweaver command key:",
+		"label": "Ancient Fuelweaver command key",
 		"value": "ancient_fuelweaver",
 		"group": "🕳️ Caves Boss 🕳️"
 	},
@@ -408,7 +456,7 @@
 	},
 	"fuelweaver_caves_command_key": {
 		"type": "text",
-		"label": "Caves Fuelweaver command key:",
+		"label": "Caves Fuelweaver command key",
 		"value": "caves_fuelweaver",
 		"group": "🕳️ Caves Boss 🕳️"
 	},
@@ -420,7 +468,7 @@
 	},
 	"fuelweaver_forest_command_key": {
 		"type": "text",
-		"label": "Forest Fuelweaver command key:",
+		"label": "Forest Fuelweaver command key",
 		"value": "forest_fuelweaver",
 		"group": "🕳️ Caves Boss 🕳️"
 	},
@@ -432,7 +480,7 @@
 	},
 	"nightmare_werepig_command_key": {
 		"type": "text",
-		"label": "Nightmare Werepig command key:",
+		"label": "Nightmare Werepig command key",
 		"value": "nightmare_werepig",
 		"group": "🕳️ Caves Boss 🕳️"
 	},
@@ -444,7 +492,7 @@
 	},
 	"toadstool_command_key": {
 		"type": "text",
-		"label": "Toadstool command key:",
+		"label": "Toadstool command key",
 		"value": "toadstool",
 		"group": "🕳️ Caves Boss 🕳️"
 	},
@@ -456,7 +504,7 @@
 	},
 	"toadstool_misery_command_key": {
 		"type": "text",
-		"label": "Toadstool Misery command key:",
+		"label": "Toadstool Misery command key",
 		"value": "toadstool_misery",
 		"group": "🕳️ Caves Boss 🕳️"
 	},
@@ -469,7 +517,7 @@
 	},
 	"bearger_mutated_command_key": {
 		"type": "text",
-		"label": "Mutated Bearger command key:",
+		"label": "Mutated Bearger command key",
 		"value": "bearger_mutated",
 		"group": "🦠 Mutated Boss 🦠"
 	},
@@ -481,7 +529,7 @@
 	},
 	"deerclops_mutated_command_key": {
 		"type": "text",
-		"label": "Mutated Deerclops command key:",
+		"label": "Mutated Deerclops command key",
 		"value": "deerclops_mutated",
 		"group": "🦠 Mutated Boss 🦠"
 	},
@@ -493,7 +541,7 @@
 	},
 	"varg_mutated_command_key": {
 		"type": "text",
-		"label": "Mutated Varg command key:",
+		"label": "Mutated Varg command key",
 		"value": "varg_mutated",
 		"group": "🦠 Mutated Boss 🦠"
 	},
@@ -506,7 +554,7 @@
 	},
 	"bearger_winter_command_key": {
 		"type": "text",
-		"label": "Winter's Feast Bearger command key:",
+		"label": "Winter's Feast Bearger command key",
 		"value": "bearger_winter",
 		"group": "❄️ Winter's Feast Boss ❄️"
 	},
@@ -518,7 +566,7 @@
 	},
 	"deerclops_winter_command_key": {
 		"type": "text",
-		"label": "Winter's Feast Deerclops command key:",
+		"label": "Winter's Feast Deerclops command key",
 		"value": "deerclops_winter",
 		"group": "❄️ Winter's Feast Boss ❄️"
 	},
@@ -530,7 +578,7 @@
 	},
 	"dragonfly_winter_command_key": {
 		"type": "text",
-		"label": "Winter's Feast Dragonfly command key:",
+		"label": "Winter's Feast Dragonfly command key",
 		"value": "dragonfly_winter",
 		"group": "❄️ Winter's Feast Boss ❄️"
 	},
@@ -542,7 +590,7 @@
 	},
 	"goose_winter_command_key": {
 		"type": "text",
-		"label": "Winter's Feast Goose command key:",
+		"label": "Winter's Feast Goose command key",
 		"value": "goose_winter",
 		"group": "❄️ Winter's Feast Boss ❄️"
 	},
@@ -555,7 +603,7 @@
 	},
 	"boarilla_command_key": {
 		"type": "text",
-		"label": "Boarilla command key:",
+		"label": "Boarilla command key",
 		"value": "boarilla",
 		"group": "🔨 Forge Boss 🔨"
 	},
@@ -567,7 +615,7 @@
 	},
 	"grand_forge_boarrior_command_key": {
 		"type": "text",
-		"label": "Grand Forge Boarrior command key:",
+		"label": "Grand Forge Boarrior command key",
 		"value": "grand_forge_boarrior",
 		"group": "🔨 Forge Boss 🔨"
 	},
@@ -579,7 +627,7 @@
 	},
 	"infernal_swineclops_command_key": {
 		"type": "text",
-		"label": "Infernal Swineclops command key:",
+		"label": "Infernal Swineclops command key",
 		"value": "infernal_swineclops",
 		"group": "🔨 Forge Boss 🔨"
 	},
@@ -591,7 +639,7 @@
 	},
 	"rhinocebro_command_key": {
 		"type": "text",
-		"label": "Rhinocebro command key:",
+		"label": "Rhinocebro command key",
 		"value": "rhinocebro",
 		"group": "🔨 Forge Boss 🔨"
 	},
@@ -604,7 +652,7 @@
 	},
 	"palm_treeguard_command_key": {
 		"type": "text",
-		"label": "Palm Treeguard command key:",
+		"label": "Palm Treeguard command key",
 		"value": "palm_treeguard",
 		"group": "🦜 Shipwrecked Boss 🦜"
 	},
@@ -616,7 +664,7 @@
 	},
 	"quacken_command_key": {
 		"type": "text",
-		"label": "Quacken command key:",
+		"label": "Quacken command key",
 		"value": "quacken",
 		"group": "🦜 Shipwrecked Boss 🦜"
 	},
@@ -628,7 +676,7 @@
 	},
 	"sealnado_command_key": {
 		"type": "text",
-		"label": "Sealnado command key:",
+		"label": "Sealnado command key",
 		"value": "sealnado",
 		"group": "🦜 Shipwrecked Boss 🦜"
 	},
@@ -640,7 +688,7 @@
 	},
 	"tiger_shark_command_key": {
 		"type": "text",
-		"label": "Tiger Shark command key:",
+		"label": "Tiger Shark command key",
 		"value": "tiger_shark",
 		"group": "🦜 Shipwrecked Boss 🦜"
 	},
@@ -653,7 +701,7 @@
 	},
 	"ancient_herald_command_key": {
 		"type": "text",
-		"label": "Ancient Herald command key:",
+		"label": "Ancient Herald command key",
 		"value": "ancient_herald",
 		"group": "🍖 Hamlet Boss 🍖"
 	},
@@ -665,7 +713,7 @@
 	},
 	"iron_hulk_command_key": {
 		"type": "text",
-		"label": "Iron Hulk command key:",
+		"label": "Iron Hulk command key",
 		"value": "iron_hulk",
 		"group": "🍖 Hamlet Boss 🍖"
 	},
@@ -677,7 +725,7 @@
 	},
 	"pugalisk_command_key": {
 		"type": "text",
-		"label": "Pugalisk command key:",
+		"label": "Pugalisk command key",
 		"value": "pugalisk",
 		"group": "🍖 Hamlet Boss 🍖"
 	},
@@ -689,8 +737,33 @@
 	},
 	"queen_womant_command_key": {
 		"type": "text",
-		"label": "Queen Womant command key:",
+		"label": "Queen Womant command key",
 		"value": "queen_womant",
 		"group": "🍖 Hamlet Boss 🍖"
+	},
+
+	"widgetName": {
+		"type": "hidden",
+		"label": "DST Boss List Widget",
+		"value": "DST Boss List Widget",
+		"group": "About"
+	},
+	"widgetAuthor": {
+		"type": "hidden",
+		"label": "Concept & Design by Nucktrooper",
+		"value": "Nucktrooper",
+		"group": "About"
+	},
+	"widgetCoder": {
+		"type": "hidden",
+		"label": "Code by Nucktrooper",
+		"value": "Nucktrooper",
+		"group": "About"
+	},
+	"widgetVersion": {
+		"type": "hidden",
+		"label": "Version 1.0",
+		"value": "24.03.15",
+		"group": "About"
 	}
 }
