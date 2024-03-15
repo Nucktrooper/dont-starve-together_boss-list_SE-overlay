@@ -17,25 +17,15 @@ window.addEventListener('onWidgetLoad', function(obj) {
 	setAllDoneCommand = widgetData.set_all_done_command;
 	resetCommand = widgetData.reset_command;
 	bossList = $('#boss-list > img').map((index, elem) => elem.id).get();
-	$('#boss-list').addClass(widgetData.img_type);
 
-	if (widgetData.orientation === 'column') {
-		addStyle('#boss-list', 'flex-direction', 'column');
-		addStyle('#boss-list > img', 'width', `${widgetData.boss_size}px`);
-	} else {
-		addStyle('#boss-list', 'flex-direction', 'row');
-		addStyle('#boss-list > img', 'height', `${widgetData.boss_size}px`);
-	}
+	$('#boss-list').addClass(widgetData.img_type);
+	$('#boss-list').addClass(widgetData.widget_orientation);
 
 	if (widgetData.boss_opacity === 0) {
 		addStyle('#boss-list > img:not(.done)', 'display', 'none');
-	} else {
-		addStyle('#boss-list > img:not(.done)', 'opacity', widgetData.boss_opacity / 100);
 	}
 	if (widgetData.boss_done_opacity === 0) {
 		addStyle('#boss-list > img.done', 'display', 'none');
-	} else {
-		addStyle('#boss-list > img.done', 'opacity', widgetData.boss_done_opacity / 100);
 	}
 
 	const bossTypes = ['world', 'oceans', 'caves', 'mutated', 'winter', 'forge', 'shipwrecked', 'hamlet'];

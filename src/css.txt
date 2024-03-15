@@ -1,9 +1,12 @@
+* {
+	overflow: hidden;
+}
 body {
 	margin: 0;
 	padding: 0;
-}
-* {
-	overflow: hidden;
+	display: flex;
+	align-items: {widget_vertical_align};
+	justify-content: {widget_horizontal_align};
 }
 
 .hidden {
@@ -12,19 +15,41 @@ body {
 
 #boss-list {
 	align-content: baseline;
+	background-color: {widget_bg_color};
+	border-radius: {widget_bg_rounding}px;
 	display: flex;
 	flex-wrap: wrap;
+	height: fit-content;
+	max-height: 100%;
+	width: fit-content;
 	justify-content: center;
-	height: 100%;
+	padding: 5px;
+}
+#boss-list.row {
+	flex-direction: row;
+}
+#boss-list.column {
+	flex-direction: column;
+}
+
+#boss-list.row > img {
+	height: {boss_size}px;
+}
+#boss-list.column > img {
+	width: {boss_size}px;
 }
 #boss-list > img {
+	opacity: calc({boss_opacity} / 100);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 	cursor: pointer;
+	filter: drop-shadow(0 0 1px {boss_bg_color}) drop-shadow(0 0 2px {boss_bg_color}) drop-shadow(0 0 3px {boss_bg_color});
 }
+
 #boss-list > img.done {
-	opacity: 1;
+	opacity: calc({boss_done_opacity} / 100);
+	filter: drop-shadow(0 0 1px {boss_done_bg_color}) drop-shadow(0 0 2px {boss_done_bg_color}) drop-shadow(0 0 3px {boss_done_bg_color});
 }
 
 #boss-list > img#antlion {
@@ -35,6 +60,9 @@ body {
 }
 #boss-list > img#bearger {
 	content: url('https://i.postimg.cc/G3zKX9wy/bearger.webp')
+}
+#boss-list.animated > img#bearger {
+	content: url('https://i.postimg.cc/prVHXTTc/bearger.webp')
 }
 #boss-list > img#bee_queen {
 	content: url('https://i.postimg.cc/RhCRMxfh/Bee-Queen.webp')
@@ -52,10 +80,13 @@ body {
 	content: url('https://i.postimg.cc/tgPDk5pq/Deerclops.webp')
 }
 #boss-list.animated > img#deerclops {
-	content: url('https://i.postimg.cc/MKCQ58TB/deerclops.webp')
+	content: url('https://i.postimg.cc/d3L2YQJG/deerclops.webp')
 }
 #boss-list > img#dragonfly {
 	content: url('https://i.postimg.cc/15CW3XvQ/dragonfly.webp')
+}
+#boss-list.animated > img#dragonfly {
+	content: url('https://i.postimg.cc/5y7C7hvj/dragonfly.webp')
 }
 #boss-list > img#ewecus {
 	content: url('https://i.postimg.cc/Vvj8cMqm/ewecus.webp')

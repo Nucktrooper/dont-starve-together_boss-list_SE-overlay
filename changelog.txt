@@ -1,3 +1,15 @@
+ℹ️ v24.03.15
+💅 Appearance 💅
+-option: change the color of the background of the widget
+-option: change the radius of the corners of the widget
+-option: change the horizontal alignment of the widget
+-option: change the vertical alignment of the widget
+-option: add a glow effect on bosses
+-option: add a glow effect on bosses done
+
+👾 Bosses 👾
+-new boss gif: bearger, deerclops, dragonfly
+
 ℹ️ v24.03.07
 👨🏻‍🔧 Fixes 👨🏻‍🔧
 -replace PNGs and GIFs files by WEPBs
@@ -21,11 +33,11 @@
 -reset command
 
 💅 Appearance 💅
--option to switch between static and animated pictures
--option to switch between row and column layout
--option to change the bosses size
--option to change the todo bosses opacity
--option to change the done bosses opacity
+-option: switch between static and animated pictures
+-option: switch between row and column layout
+-option: change the bosses size
+-option: change the todo bosses opacity
+-option: change the done bosses opacity
 
 👾 Bosses 👾
 -new boss types: world, oceans, caves, mutated, winter's feat, shipwrecked, hamlet
