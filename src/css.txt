@@ -302,15 +302,18 @@ body {
 #boss-list > img#iron_hulk {
 	content: url('https://i.postimg.cc/FK85dGGh/iron-hulk.webp')
 }
+#boss-list.animated > img#iron_hulk {
+	content: url('https://i.postimg.cc/85jVvZXt/iron-hulk.webp')
+}
 #boss-list > img#pugalisk {
 	content: url('https://i.postimg.cc/fRWh6VJQ/pugalisk.webp')
 }
 #boss-list.animated > img#pugalisk {
-	content: url('https://i.postimg.cc/vBhr22js/pugalisk.webp')
+	content: url('https://i.postimg.cc/Ghknv8zw/pugalisk.webp')
 }
 #boss-list > img#queen_womant {
 	content: url('https://i.postimg.cc/MGvJpg7s/queen-womant.webp')
 }
 #boss-list.animated > img#queen_womant {
-	content: url('https://i.postimg.cc/k4qNcPTs/queen-womant.webp')
+	content: url('https://i.postimg.cc/J0XV6GLX/queen-womant.webp')
 }
