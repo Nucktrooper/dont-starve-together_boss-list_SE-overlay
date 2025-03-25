@@ -1,4 +1,8 @@
-// v24.03.07
+// v25.03.25
+
+const isOBS = () => {
+	return !window.navigator.userAgent || window.navigator.userAgent.includes("OBS");
+};
 
 let widgetData = {};
 let allowModerators = true;
@@ -21,11 +25,20 @@ window.addEventListener('onWidgetLoad', function(obj) {
 	$('#boss-list').addClass(widgetData.img_type);
 	$('#boss-list').addClass(widgetData.widget_orientation);
 
-	if (widgetData.boss_opacity === 0) {
-		addStyle('#boss-list > img:not(.done)', 'display', 'none');
-	}
-	if (widgetData.boss_done_opacity === 0) {
-		addStyle('#boss-list > img.done', 'display', 'none');
+	if (isOBS()) {
+		if (widgetData.boss_opacity === 0) {
+			addStyle('#boss-list > img:not(.done)', 'display', 'none');
+		}
+		if (widgetData.boss_done_opacity === 0) {
+			addStyle('#boss-list > img.done', 'display', 'none');
+		}
+	} else {
+		if (widgetData.boss_opacity === 0) {
+			addStyle('#boss-list > img', 'opacity', '1');
+		}
+		if (widgetData.boss_done_opacity === 0) {
+			addStyle('#boss-list > img.done', 'opacity', '1');
+		}
 	}
 
 	const bossTypes = ['world', 'oceans', 'caves', 'mutated', 'winter', 'forge', 'shipwrecked', 'hamlet'];
@@ -40,7 +53,7 @@ window.addEventListener('onWidgetLoad', function(obj) {
 	});
 
 	progress.init();
-	setInterval(progress.init, 2000);
+	setInterval(progress.checkUpdates, 2000);
  	$('#boss-list').removeClass('hidden');
 });
 
@@ -94,6 +107,8 @@ function addStyle(selector, key, value) {
 }
 
 const progress = (() => {
+	let last_refresh = new Date();
+	const LAST_UPDATE_DATA_NAME = "last-update";
 	const BOSS_LIST_DATA_NAME = "dst-boss-done-list";
 
 	let dones = [];
@@ -109,14 +124,31 @@ const progress = (() => {
 			});
 	};
 
+	const notifyUpdate = () => {
+		last_refresh = new Date();
+		SE_API.store.set(LAST_UPDATE_DATA_NAME, last_refresh);
+	};
+
 	return {
 		init: () => {
-			SE_API.store.get(BOSS_LIST_DATA_NAME).then(obj => {
+			SE_API.store.get(BOSS_LIST_DATA_NAME).then((obj) => {
 				if (!obj) {
 					setBossDones([]);
 				} else {
 					setBossDones(obj);
 				}
+			});
+		},
+		checkUpdates: () => {
+			SE_API.store.get(LAST_UPDATE_DATA_NAME).then((last_update) => {
+				if (!last_update || last_refresh >= last_update.value) return;
+				last_refresh = last_update.value;
+				progress.refresh();
+			});
+		},
+		refresh: () => {
+			SE_API.store.get(BOSS_LIST_DATA_NAME).then((obj) => {
+				setBossDones(obj);
 			});
 		},
 		toggle: (bossKey) => {
@@ -125,22 +157,27 @@ const progress = (() => {
 			} else {
 				setBossDones([...dones, bossKey]);
 			}
+			notifyUpdate();
 		},
 		setTodo: (bossKey) => {
 			if (dones.includes(bossKey)) {
 				setBossDones(dones.filter(key => key !== bossKey));
+				notifyUpdate();
 			}
 		},
 		setDone: (bossKey) => {
 			if (!dones.includes(bossKey)) {
 				setBossDones([...dones, bossKey]);
+				notifyUpdate();
 			}
 		},
 		setAllDone() {
 			setBossDones(Object.keys(bossList));
+			notifyUpdate();
 		},
 		resetAll() {
 			setBossDones([]);
+			notifyUpdate();
 		}
 	};
 })();

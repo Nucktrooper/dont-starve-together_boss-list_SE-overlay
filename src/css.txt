@@ -45,6 +45,8 @@ body {
 	background-size: contain;
 	cursor: pointer;
 	filter: drop-shadow(0 0 1px {boss_bg_color}) drop-shadow(0 0 2px {boss_bg_color}) drop-shadow(0 0 3px {boss_bg_color});
+	clip-path: inset(0 0 0 0);
+	padding: 2px;
 }
 
 #boss-list > img.done {
@@ -130,6 +132,12 @@ body {
 #boss-list.animated > img#lord_of_the_fruit_flies {
 	content: url('https://i.postimg.cc/Bvqt7ZGj/lord-of-the-fruit-flies.webp')
 }
+#boss-list > img#scrappy_werepig {
+	content: url('https://i.postimg.cc/hh1YkvhV/scrappy-werepig.webp')
+}
+#boss-list.animated > img#scrappy_werepig {
+	content: url('https://i.postimg.cc/1zCkR8BH/scrappy-werepig.webp')
+}
 #boss-list > img#shadow_pieces {
 	content: url('https://i.postimg.cc/pTz79vpB/shadow-pieces.webp')
 }
@@ -186,11 +194,17 @@ body {
 #boss-list > img#fuelweaver_forest {
 	content: url('https://i.postimg.cc/NMqCvnp2/fuelweaver-forest.webp')
 }
+#boss-list > img#great_depths_worm {
+	content: url('https://i.postimg.cc/0btBN4YQ/great-depths-worm.webp')
+}
+#boss-list.animated > img#great_depths_worm {
+	content: url('https://i.postimg.cc/s2gFRYYx/great-depths-worm.webp')
+}
 #boss-list > img#nightmare_werepig {
 	content: url('https://i.postimg.cc/Zq9XSpm2/nightmare-werepig.webp')
 }
 #boss-list.animated > img#nightmare_werepig {
-	content: url('https://i.postimg.cc/NFW5d1gt/nightmare-werepig.webp')
+	content: url('https://i.postimg.cc/gJxfxGBP/nightmare-werepig.webp')
 }
 #boss-list > img#toadstool {
 	content: url('https://i.postimg.cc/PrtcqBhm/toadstool.webp')
@@ -217,11 +231,11 @@ body {
 #boss-list.animated > img#deerclops_mutated {
 	content: url('https://i.postimg.cc/KcdPqTp4/deerclops-mutated.webp')
 }
-#boss-list > img#warg_mutated {
-	content: url('https://i.postimg.cc/8CrX3GBV/warg-mutated.webp')
+#boss-list > img#varg_mutated {
+	content: url('https://i.postimg.cc/BXZz431k/warg-mutated.webp')
 }
-#boss-list.animated > img#warg_mutated {
-	content: url('https://i.postimg.cc/ncgvWDdC/warg-mutated.webp')
+#boss-list.animated > img#varg_mutated {
+	content: url('https://i.postimg.cc/ZRXX3X1v/warg-mutated.webp')
 }
 
 #boss-list > img#bearger_winter {
@@ -302,15 +316,18 @@ body {
 #boss-list > img#iron_hulk {
 	content: url('https://i.postimg.cc/FK85dGGh/iron-hulk.webp')
 }
+#boss-list.animated > img#iron_hulk {
+	content: url('https://i.postimg.cc/85jVvZXt/iron-hulk.webp')
+}
 #boss-list > img#pugalisk {
 	content: url('https://i.postimg.cc/fRWh6VJQ/pugalisk.webp')
 }
 #boss-list.animated > img#pugalisk {
-	content: url('https://i.postimg.cc/vBhr22js/pugalisk.webp')
+	content: url('https://i.postimg.cc/Ghknv8zw/pugalisk.webp')
 }
 #boss-list > img#queen_womant {
 	content: url('https://i.postimg.cc/MGvJpg7s/queen-womant.webp')
 }
 #boss-list.animated > img#queen_womant {
-	content: url('https://i.postimg.cc/k4qNcPTs/queen-womant.webp')
+	content: url('https://i.postimg.cc/J0XV6GLX/queen-womant.webp')
 }
