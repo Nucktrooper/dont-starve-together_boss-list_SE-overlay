@@ -150,6 +150,9 @@ body {
 #boss-list > img#treeguard {
 	content: url('https://i.postimg.cc/zGvcCKyv/treeguard.webp')
 }
+#boss-list.animated > img#treeguard {
+	content: url('https://i.postimg.cc/ZnS5g8Pn/treeguard.webp')
+}
 #boss-list > img#varg {
 	content: url('https://i.postimg.cc/FH6nDzSZ/warg.webp')
 }
