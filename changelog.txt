@@ -1,4 +1,7 @@
 ℹ️ v25.03.25
+✨ Features ✨
+-force boss opacity to 100% outside obs to enable user to click on hidden boss
+
 👾 Bosses 👾
 -new boss: scrappy werepig, great depths worm
 

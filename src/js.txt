@@ -1,5 +1,9 @@
 // v25.03.25
 
+const isOBS = () => {
+	return !window.navigator.userAgent || window.navigator.userAgent.includes("OBS");
+};
+
 let widgetData = {};
 let allowModerators = true;
 let toggleCommand = '!dst-boss-toggle';
@@ -21,11 +25,20 @@ window.addEventListener('onWidgetLoad', function(obj) {
 	$('#boss-list').addClass(widgetData.img_type);
 	$('#boss-list').addClass(widgetData.widget_orientation);
 
-	if (widgetData.boss_opacity === 0) {
-		addStyle('#boss-list > img:not(.done)', 'display', 'none');
-	}
-	if (widgetData.boss_done_opacity === 0) {
-		addStyle('#boss-list > img.done', 'display', 'none');
+	if (isOBS()) {
+		if (widgetData.boss_opacity === 0) {
+			addStyle('#boss-list > img:not(.done)', 'display', 'none');
+		}
+		if (widgetData.boss_done_opacity === 0) {
+			addStyle('#boss-list > img.done', 'display', 'none');
+		}
+	} else {
+		if (widgetData.boss_opacity === 0) {
+			addStyle('#boss-list > img', 'opacity', '1');
+		}
+		if (widgetData.boss_done_opacity === 0) {
+			addStyle('#boss-list > img.done', 'opacity', '1');
+		}
 	}
 
 	const bossTypes = ['world', 'oceans', 'caves', 'mutated', 'winter', 'forge', 'shipwrecked', 'hamlet'];
