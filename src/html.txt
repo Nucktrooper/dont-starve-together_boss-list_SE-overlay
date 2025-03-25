@@ -13,6 +13,7 @@
 	<img id="goose" data-type="world" />
 	<img id="klaus" data-type="world" />
 	<img id="lord_of_the_fruit_flies" data-type="world" />
+	<img id="scrappy_werepig" data-type="world" />
 	<img id="shadow_pieces" data-type="world" />
 	<img id="spider_queen" data-type="world" />
 	<img id="treeguard" data-type="world" />
@@ -26,6 +27,7 @@
 	<img id="fuelweaver_ancient" data-type="caves" />
 	<img id="fuelweaver_caves" data-type="caves" />
 	<img id="fuelweaver_forest" data-type="caves" />
+	<img id="great_depths_worm" data-type="caves" />
 	<img id="nightmare_werepig" data-type="caves" />
 	<img id="toadstool" data-type="caves" />
 	<img id="toadstool_misery" data-type="caves" />

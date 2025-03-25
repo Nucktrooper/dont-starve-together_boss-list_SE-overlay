@@ -1,3 +1,7 @@
+ℹ️ v25.03.25
+👾 Bosses 👾
+-new boss: scrappy werepig, great depths worm
+
 ℹ️ v24.03.15
 💅 Appearance 💅
 -option: change the color of the background of the widget

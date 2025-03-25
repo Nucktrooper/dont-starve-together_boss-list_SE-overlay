@@ -1,4 +1,4 @@
-// v24.03.07
+// v25.03.25
 
 let widgetData = {};
 let allowModerators = true;
