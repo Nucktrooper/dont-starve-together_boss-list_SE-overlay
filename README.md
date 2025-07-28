@@ -76,26 +76,14 @@ All bosses are set to "to do" by default and can be set to "done" to be highligh
 - Boss done opacity: the opacity of "done" boss.
 
 ### 👾 Boss Types 👾
-- 🌄 World: Display World bosses.
-- 🌊 Oceans: Display Oceans bosses.
-- 🕳️ Caves: Display Caves bosses.
-- 🦠 Mutated: Display Mutated bosses.
+- 🏕️ Don't Starve Together: Display Don't Starve Together bosses.
 - ❄️ Winter's Feast: Display Winter's Feast bosses.
 - 🔨 Forge: Display Forge bosses.
 - 🦜 Shipwrecked: Display Shipwrecked bosses.
 - 🍖 Hamlet: Display Hamlet bosses.
 
-### 🌄 World Boss 🌄
-- You can enable / disable specific World bosses and change their keys for commands.
-
-### 🌊 Oceans Boss 🌊
-- You can enable / disable specific Oceans bosses and change their keys for commands.
-
-### 🕳️ Caves Boss 🕳️
-- You can enable / disable specific Caves bosses and change their keys for commands.
-
-### 🦠 Mutated Boss 🦠
-- You can enable / disable specific Mutated bosses and change their keys for commands.
+### 🏕️ Don't Starve Together 🏕️
+- You can enable / disable specific Don't Starve Together bosses and change their keys for commands.
 
 ### ❄️ Winter's Feast Boss ❄️
 - You can enable / disable specific Winter's Feast bosses and change their keys for commands.

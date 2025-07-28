@@ -1,4 +1,4 @@
-// v25.03.25
+// v28.07.25
 
 const isOBS = () => {
 	return !window.navigator.userAgent || window.navigator.userAgent.includes("OBS");
@@ -41,7 +41,7 @@ window.addEventListener('onWidgetLoad', function(obj) {
 		}
 	}
 
-	const bossTypes = ['world', 'oceans', 'caves', 'mutated', 'winter', 'forge', 'shipwrecked', 'hamlet'];
+	const bossTypes = ['dst', 'winter', 'forge', 'shipwrecked', 'hamlet'];
 	bossTypes.filter((bossType) => !widgetData[`${bossType}_boss_type_display`])
 		.forEach((bossType) => addStyle(`#boss-list > img[data-type='${bossType}']`, 'display', 'none'));
 
