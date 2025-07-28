@@ -1,3 +1,10 @@
+ℹ️ v28.07.25
+👾 Bosses 👾
+-new boss: celestial revenant, w.a.r.b.o.t., celestial scion
+-rename: varg_possessed (ex: varg_mutated), bearger_armored (ex: bearger_mutated), deerclops_crystal (ex: deerclops_mutated)
+-new boss type: dst
+-boss types removed: world, oceans, caves, mutated
+
 ℹ️ v25.03.25
 ✨ Features ✨
 -force boss opacity to 100% outside obs to enable user to click on hidden boss

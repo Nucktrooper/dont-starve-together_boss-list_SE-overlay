@@ -1,45 +1,45 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <div id="boss-list" class="hidden">
-	<img id="antlion" data-type="world" />
-	<img id="bearger" data-type="world" />
-	<img id="bee_queen" data-type="world" />
-	<img id="celestial_champion" data-type="world" />
-	<img id="deerclops" data-type="world" />
-	<img id="dragonfly" data-type="world" />
-	<img id="ewecus" data-type="world" />
-	<img id="eye_of_terror" data-type="world" />
-	<img id="retinazor" data-type="world" />
-	<img id="spazmatism" data-type="world" />
-	<img id="goose" data-type="world" />
-	<img id="klaus" data-type="world" />
-	<img id="lord_of_the_fruit_flies" data-type="world" />
-	<img id="scrappy_werepig" data-type="world" />
-	<img id="shadow_pieces" data-type="world" />
-	<img id="spider_queen" data-type="world" />
-	<img id="treeguard" data-type="world" />
-	<img id="varg" data-type="world" />
+	<img id="treeguard" data-type="dst" />
+	<img id="spider_queen" data-type="dst" />
+	<img id="varg" data-type="dst" />
+	<img id="lord_of_the_fruit_flies" data-type="dst" />
+	<img id="ewecus" data-type="dst" />
+	<img id="eye_of_terror" data-type="dst" />
+	<img id="retinazor" data-type="dst" />
+	<img id="spazmatism" data-type="dst" />
+	<img id="deerclops" data-type="dst" />
+	<img id="klaus" data-type="dst" />
+	<img id="goose" data-type="dst" />
+	<img id="bee_queen" data-type="dst" />
+	<img id="antlion" data-type="dst" />
+	<img id="dragonfly" data-type="dst" />
+	<img id="bearger" data-type="dst" />
+	<img id="shadow_pieces" data-type="dst" />
+	<img id="nightmare_werepig" data-type="dst" />
+	<img id="ancient_guardian" data-type="dst" />
+	<img id="fuelweaver_ancient" data-type="dst" />
+	<img id="fuelweaver_caves" data-type="dst" />
+	<img id="fuelweaver_forest" data-type="dst" />
+	<img id="toadstool" data-type="dst" />
+	<img id="toadstool_misery" data-type="dst" />
+	<img id="great_depths_worm" data-type="dst" />
+	<img id="malbatross" data-type="dst" />
+	<img id="frostjaw" data-type="dst" />
+	<img id="crab_king" data-type="dst" />
+	<img id="celestial_champion" data-type="dst" />
+	<img id="scrappy_werepig" data-type="dst" />
+	<img id="varg_possessed" data-type="dst" />
+	<img id="bearger_armored" data-type="dst" />
+	<img id="deerclops_crystal" data-type="dst" />
+	<img id="celestial_revenant" data-type="dst" />
+	<img id="warbot" data-type="dst" />
+	<img id="celestial_scion" data-type="dst" />
 
-	<img id="crab_king" data-type="oceans" />
-	<img id="frostjaw" data-type="oceans" />
-	<img id="malbatross" data-type="oceans" />
-
-	<img id="ancient_guardian" data-type="caves" />
-	<img id="fuelweaver_ancient" data-type="caves" />
-	<img id="fuelweaver_caves" data-type="caves" />
-	<img id="fuelweaver_forest" data-type="caves" />
-	<img id="great_depths_worm" data-type="caves" />
-	<img id="nightmare_werepig" data-type="caves" />
-	<img id="toadstool" data-type="caves" />
-	<img id="toadstool_misery" data-type="caves" />
-
-	<img id="bearger_mutated" data-type="mutated" />
-	<img id="deerclops_mutated" data-type="mutated" />
-	<img id="varg_mutated" data-type="mutated" />
-
-	<img id="bearger_winter" data-type="winter" />
 	<img id="deerclops_winter" data-type="winter" />
-	<img id="dragonfly_winter" data-type="winter" />
 	<img id="goose_winter" data-type="winter" />
+	<img id="dragonfly_winter" data-type="winter" />
+	<img id="bearger_winter" data-type="winter" />
 
 	<img id="boarilla" data-type="forge" />
 	<img id="grand_forge_boarrior" data-type="forge" />

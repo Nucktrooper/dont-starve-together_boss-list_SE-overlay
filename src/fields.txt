@@ -35,7 +35,6 @@
     "value": "!dst-boss-reset",
     "group": "⌨️ Commands ⌨️"
   },
-
   "widget_bg_color": {
     "type": "colorpicker",
     "label": "Widget background color",
@@ -99,7 +98,7 @@
     "max": 200,
     "step": 1,
     "label": "Boss size [10, 200]",
-    "value": 100,
+    "value": 54,
     "group": "💅 Appearance 💅"
   },
   "boss_bg_color": {
@@ -132,28 +131,9 @@
     "value": 100,
     "group": "💅 Appearance 💅"
   },
-
-  "world_boss_type_display": {
+  "dst_boss_type_display": {
     "type": "checkbox",
-    "label": "🌄 World",
-    "value": true,
-    "group": "👾 Boss Types 👾"
-  },
-  "oceans_boss_type_display": {
-    "type": "checkbox",
-    "label": "🌊 Oceans",
-    "value": true,
-    "group": "👾 Boss Types 👾"
-  },
-  "caves_boss_type_display": {
-    "type": "checkbox",
-    "label": "🕳️ Caves",
-    "value": true,
-    "group": "👾 Boss Types 👾"
-  },
-  "mutated_boss_type_display": {
-    "type": "checkbox",
-    "label": "🦠 Mutated",
+    "label": "🏕️ Don't Starve Together",
     "value": true,
     "group": "👾 Boss Types 👾"
   },
@@ -181,406 +161,425 @@
     "value": true,
     "group": "👾 Boss Types 👾"
   },
-
-  "antlion_display": {
-    "type": "checkbox",
-    "label": "Antlion",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "antlion_command_key": {
-    "type": "text",
-    "label": "Antlion command key",
-    "value": "antlion",
-    "group": "🌄 World Boss 🌄"
-  },
-  "bearger_display": {
-    "type": "checkbox",
-    "label": "Bearger",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "bearger_command_key": {
-    "type": "text",
-    "label": "Bearger command key",
-    "value": "bearger",
-    "group": "🌄 World Boss 🌄"
-  },
-  "bee_queen_display": {
-    "type": "checkbox",
-    "label": "Bee Queen",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "bee_queen_command_key": {
-    "type": "text",
-    "label": "Bee Queen command key",
-    "value": "bee_queen",
-    "group": "🌄 World Boss 🌄"
-  },
-  "celestial_champion_display": {
-    "type": "checkbox",
-    "label": "Celestial Champion",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "celestial_champion_command_key": {
-    "type": "text",
-    "label": "Celestial Champion command key",
-    "value": "celestial_champion",
-    "group": "🌄 World Boss 🌄"
-  },
-  "deerclops_display": {
-    "type": "checkbox",
-    "label": "Deerclops",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "deerclops_command_key": {
-    "type": "text",
-    "label": "Deerclops command key",
-    "value": "deerclops",
-    "group": "🌄 World Boss 🌄"
-  },
-  "dragonfly_display": {
-    "type": "checkbox",
-    "label": "Dragonfly",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "dragonfly_command_key": {
-    "type": "text",
-    "label": "Dragonfly command key",
-    "value": "dragonfly",
-    "group": "🌄 World Boss 🌄"
-  },
-  "ewecus_display": {
-    "type": "checkbox",
-    "label": "Ewecus",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "ewecus_command_key": {
-    "type": "text",
-    "label": "Ewecus command key",
-    "value": "ewecus",
-    "group": "🌄 World Boss 🌄"
-  },
-  "eye_of_terror_display": {
-    "type": "checkbox",
-    "label": "Eye of terror",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "eye_of_terror_command_key": {
-    "type": "text",
-    "label": "Eye of terror command key",
-    "value": "eye_of_terror",
-    "group": "🌄 World Boss 🌄"
-  },
-  "retinazor_display": {
-    "type": "checkbox",
-    "label": "Retinazor",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "retinazor_command_key": {
-    "type": "text",
-    "label": "Retinazor command key",
-    "value": "retinazor",
-    "group": "🌄 World Boss 🌄"
-  },
-  "spazmatism_display": {
-    "type": "checkbox",
-    "label": "Spazmatism",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "spazmatism_command_key": {
-    "type": "text",
-    "label": "Spazmatism command key",
-    "value": "spazmatism",
-    "group": "🌄 World Boss 🌄"
-  },
-  "goose_display": {
-    "type": "checkbox",
-    "label": "Goose",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "goose_command_key": {
-    "type": "text",
-    "label": "Goose command key",
-    "value": "goose",
-    "group": "🌄 World Boss 🌄"
-  },
-  "klaus_display": {
-    "type": "checkbox",
-    "label": "Klaus",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "klaus_command_key": {
-    "type": "text",
-    "label": "Klaus command key",
-    "value": "klaus",
-    "group": "🌄 World Boss 🌄"
-  },
-  "lord_of_the_fruit_flies_display": {
-    "type": "checkbox",
-    "label": "Lord of the Fruit Flies",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "lord_of_the_fruit_flies_command_key": {
-    "type": "text",
-    "label": "Lord of the Fruit Flies command key",
-    "value": "lord_of_the_fruit_flies",
-    "group": "🌄 World Boss 🌄"
-  },
-  "scrappy_werepig_display": {
-    "type": "checkbox",
-    "label": "Scrappy Werepig Flies",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "scrappy_werepig_command_key": {
-    "type": "text",
-    "label": "Scrappy Werepig command key",
-    "value": "scrappy_werepig",
-    "group": "🌄 World Boss 🌄"
-  },
-  "shadow_pieces_display": {
-    "type": "checkbox",
-    "label": "Shadow Pieces",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "shadow_pieces_command_key": {
-    "type": "text",
-    "label": "Shadow Pieces command key",
-    "value": "shadow_pieces",
-    "group": "🌄 World Boss 🌄"
-  },
-  "spider_queen_display": {
-    "type": "checkbox",
-    "label": "Spider Queen",
-    "value": true,
-    "group": "🌄 World Boss 🌄"
-  },
-  "spider_queen_command_key": {
-    "type": "text",
-    "label": "Spider Queen command key",
-    "value": "spider_queen",
-    "group": "🌄 World Boss 🌄"
-  },
   "treeguard_display": {
     "type": "checkbox",
     "label": "Treeguard",
     "value": true,
-    "group": "🌄 World Boss 🌄"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "treeguard_command_key": {
     "type": "text",
     "label": "Treeguard command key",
     "value": "treeguard",
-    "group": "🌄 World Boss 🌄"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "spider_queen_display": {
+    "type": "checkbox",
+    "label": "Spider Queen",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "spider_queen_command_key": {
+    "type": "text",
+    "label": "Spider Queen command key",
+    "value": "spider_queen",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "varg_display": {
     "type": "checkbox",
     "label": "Varg",
     "value": true,
-    "group": "🌄 World Boss 🌄"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "varg_command_key": {
     "type": "text",
     "label": "Varg command key",
     "value": "varg",
-    "group": "🌄 World Boss 🌄"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-
-  "crab_king_display": {
+  "lord_of_the_fruit_flies_display": {
     "type": "checkbox",
-    "label": "Crab King",
+    "label": "Lord of the Fruit Flies",
     "value": true,
-    "group": "🌊 Oceans Boss 🌊"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "crab_king_command_key": {
+  "lord_of_the_fruit_flies_command_key": {
     "type": "text",
-    "label": "Crab King command key",
-    "value": "crab_king",
-    "group": "🌊 Oceans Boss 🌊"
+    "label": "Lord of the Fruit Flies command key",
+    "value": "lord_of_the_fruit_flies",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "frostjaw_display": {
+  "ewecus_display": {
     "type": "checkbox",
-    "label": "Frostjaw",
+    "label": "Ewecus",
     "value": true,
-    "group": "🌊 Oceans Boss 🌊"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "frostjaw_command_key": {
+  "ewecus_command_key": {
     "type": "text",
-    "label": "Frostjaw command key",
-    "value": "frostjaw",
-    "group": "🌊 Oceans Boss 🌊"
+    "label": "Ewecus command key",
+    "value": "ewecus",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "malbatross_display": {
+  "eye_of_terror_display": {
     "type": "checkbox",
-    "label": "Malbatross",
+    "label": "Eye of terror",
     "value": true,
-    "group": "🌊 Oceans Boss 🌊"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "malbatross_command_key": {
+  "eye_of_terror_command_key": {
     "type": "text",
-    "label": "Malbatross command key",
-    "value": "malbatross",
-    "group": "🌊 Oceans Boss 🌊"
+    "label": "Eye of terror command key",
+    "value": "eye_of_terror",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-
-  "ancient_guardian_display": {
+  "retinazor_display": {
     "type": "checkbox",
-    "label": "Ancient Guardian",
+    "label": "Retinazor",
     "value": true,
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "ancient_guardian_command_key": {
+  "retinazor_command_key": {
     "type": "text",
-    "label": "Ancient Guardian command key",
-    "value": "ancient_guardian",
-    "group": "🕳️ Caves Boss 🕳️"
+    "label": "Retinazor command key",
+    "value": "retinazor",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "fuelweaver_ancient_display": {
+  "spazmatism_display": {
     "type": "checkbox",
-    "label": "Ancient Fuelweaver",
+    "label": "Spazmatism",
     "value": true,
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "fuelweaver_ancient_command_key": {
+  "spazmatism_command_key": {
     "type": "text",
-    "label": "Ancient Fuelweaver command key",
-    "value": "ancient_fuelweaver",
-    "group": "🕳️ Caves Boss 🕳️"
+    "label": "Spazmatism command key",
+    "value": "spazmatism",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "fuelweaver_caves_display": {
+  "deerclops_display": {
     "type": "checkbox",
-    "label": "Caves Fuelweaver",
+    "label": "Deerclops",
     "value": true,
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "fuelweaver_caves_command_key": {
+  "deerclops_command_key": {
     "type": "text",
-    "label": "Caves Fuelweaver command key",
-    "value": "caves_fuelweaver",
-    "group": "🕳️ Caves Boss 🕳️"
+    "label": "Deerclops command key",
+    "value": "deerclops",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "fuelweaver_forest_display": {
+  "klaus_display": {
     "type": "checkbox",
-    "label": "Forest Fuelweaver",
+    "label": "Klaus",
     "value": true,
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "fuelweaver_forest_command_key": {
+  "klaus_command_key": {
     "type": "text",
-    "label": "Forest Fuelweaver command key",
-    "value": "forest_fuelweaver",
-    "group": "🕳️ Caves Boss 🕳️"
+    "label": "Klaus command key",
+    "value": "klaus",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "great_depths_worm_display": {
+  "goose_display": {
     "type": "checkbox",
-    "label": "Great Depths Worm",
+    "label": "Goose",
     "value": true,
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "great_depths_worm_command_key": {
+  "goose_command_key": {
     "type": "text",
-    "label": "Great Depths Worm command key",
-    "value": "great_depths_worm",
-    "group": "🕳️ Caves Boss 🕳️"
+    "label": "Goose command key",
+    "value": "goose",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "bee_queen_display": {
+    "type": "checkbox",
+    "label": "Bee Queen",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "bee_queen_command_key": {
+    "type": "text",
+    "label": "Bee Queen command key",
+    "value": "bee_queen",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "antlion_display": {
+    "type": "checkbox",
+    "label": "Antlion",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "antlion_command_key": {
+    "type": "text",
+    "label": "Antlion command key",
+    "value": "antlion",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "dragonfly_display": {
+    "type": "checkbox",
+    "label": "Dragonfly",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "dragonfly_command_key": {
+    "type": "text",
+    "label": "Dragonfly command key",
+    "value": "dragonfly",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "bearger_display": {
+    "type": "checkbox",
+    "label": "Bearger",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "bearger_command_key": {
+    "type": "text",
+    "label": "Bearger command key",
+    "value": "bearger",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "shadow_pieces_display": {
+    "type": "checkbox",
+    "label": "Shadow Pieces",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "shadow_pieces_command_key": {
+    "type": "text",
+    "label": "Shadow Pieces command key",
+    "value": "shadow_pieces",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "nightmare_werepig_display": {
     "type": "checkbox",
     "label": "Nightmare Werepig",
     "value": true,
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "nightmare_werepig_command_key": {
     "type": "text",
     "label": "Nightmare Werepig command key",
     "value": "nightmare_werepig",
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "fuelweaver_ancient_display": {
+    "type": "checkbox",
+    "label": "Ancient Fuelweaver",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "fuelweaver_ancient_command_key": {
+    "type": "text",
+    "label": "Ancient Fuelweaver command key",
+    "value": "ancient_fuelweaver",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "fuelweaver_caves_display": {
+    "type": "checkbox",
+    "label": "Caves Fuelweaver",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "fuelweaver_caves_command_key": {
+    "type": "text",
+    "label": "Caves Fuelweaver command key",
+    "value": "caves_fuelweaver",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "fuelweaver_forest_display": {
+    "type": "checkbox",
+    "label": "Forest Fuelweaver",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "fuelweaver_forest_command_key": {
+    "type": "text",
+    "label": "Forest Fuelweaver command key",
+    "value": "forest_fuelweaver",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "ancient_guardian_display": {
+    "type": "checkbox",
+    "label": "Ancient Guardian",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "ancient_guardian_command_key": {
+    "type": "text",
+    "label": "Ancient Guardian command key",
+    "value": "ancient_guardian",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "toadstool_display": {
     "type": "checkbox",
     "label": "Toadstool",
     "value": true,
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "toadstool_command_key": {
     "type": "text",
     "label": "Toadstool command key",
     "value": "toadstool",
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "toadstool_misery_display": {
     "type": "checkbox",
     "label": "Toadstool Misery",
     "value": true,
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "toadstool_misery_command_key": {
     "type": "text",
     "label": "Toadstool Misery command key",
     "value": "toadstool_misery",
-    "group": "🕳️ Caves Boss 🕳️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-
-  "bearger_mutated_display": {
+  "great_depths_worm_display": {
     "type": "checkbox",
-    "label": "Mutated Bearger",
+    "label": "Great Depths Worm",
     "value": true,
-    "group": "🦠 Mutated Boss 🦠"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "bearger_mutated_command_key": {
+  "great_depths_worm_command_key": {
     "type": "text",
-    "label": "Mutated Bearger command key",
-    "value": "bearger_mutated",
-    "group": "🦠 Mutated Boss 🦠"
+    "label": "Great Depths Worm command key",
+    "value": "great_depths_worm",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "deerclops_mutated_display": {
+  "malbatross_display": {
     "type": "checkbox",
-    "label": "Mutated Deerclops",
+    "label": "Malbatross",
     "value": true,
-    "group": "🦠 Mutated Boss 🦠"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "deerclops_mutated_command_key": {
+  "malbatross_command_key": {
     "type": "text",
-    "label": "Mutated Deerclops command key",
-    "value": "deerclops_mutated",
-    "group": "🦠 Mutated Boss 🦠"
+    "label": "Malbatross command key",
+    "value": "malbatross",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "varg_mutated_display": {
+  "frostjaw_display": {
     "type": "checkbox",
-    "label": "Mutated Varg",
+    "label": "Frostjaw",
     "value": true,
-    "group": "🦠 Mutated Boss 🦠"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "varg_mutated_command_key": {
+  "frostjaw_command_key": {
     "type": "text",
-    "label": "Mutated Varg command key",
-    "value": "varg_mutated",
-    "group": "🦠 Mutated Boss 🦠"
+    "label": "Frostjaw command key",
+    "value": "frostjaw",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-
-  "bearger_winter_display": {
+  "crab_king_display": {
     "type": "checkbox",
-    "label": "Winter's Feast Bearger",
+    "label": "Crab King",
     "value": true,
-    "group": "❄️ Winter's Feast Boss ❄️"
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
-  "bearger_winter_command_key": {
+  "crab_king_command_key": {
     "type": "text",
-    "label": "Winter's Feast Bearger command key",
-    "value": "bearger_winter",
-    "group": "❄️ Winter's Feast Boss ❄️"
+    "label": "Crab King command key",
+    "value": "crab_king",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "celestial_champion_display": {
+    "type": "checkbox",
+    "label": "Celestial Champion",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "celestial_champion_command_key": {
+    "type": "text",
+    "label": "Celestial Champion command key",
+    "value": "celestial_champion",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "scrappy_werepig_display": {
+    "type": "checkbox",
+    "label": "Scrappy Werepig Flies",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "scrappy_werepig_command_key": {
+    "type": "text",
+    "label": "Scrappy Werepig command key",
+    "value": "scrappy_werepig",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "varg_possessed_display": {
+    "type": "checkbox",
+    "label": "Possessed Varg",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "varg_possessed_command_key": {
+    "type": "text",
+    "label": "Possessed Varg command key",
+    "value": "varg_possessed",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "bearger_armored_display": {
+    "type": "checkbox",
+    "label": "Armored Bearger",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "bearger_armored_command_key": {
+    "type": "text",
+    "label": "Armored Bearger command key",
+    "value": "bearger_armored",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "deerclops_crystal_display": {
+    "type": "checkbox",
+    "label": "Crystal Deerclops",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "deerclops_crystal_command_key": {
+    "type": "text",
+    "label": "Crystal Deerclops command key",
+    "value": "deerclops_crystal",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "celestial_revenant_display": {
+    "type": "checkbox",
+    "label": "Celestial Revenant",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "celestial_revenant_command_key": {
+    "type": "text",
+    "label": "Celestial Revenant command key",
+    "value": "celestial_revenant",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "warbot_display": {
+    "type": "checkbox",
+    "label": "W.A.R.B.O.T.",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "warbot_command_key": {
+    "type": "text",
+    "label": "W.A.R.B.O.T. command key",
+    "value": "warbot",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "celestial_scion_display": {
+    "type": "checkbox",
+    "label": "Celestial Scion",
+    "value": true,
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
+  },
+  "celestial_scion_command_key": {
+    "type": "text",
+    "label": "Celestial Scion command key",
+    "value": "celestial_scion",
+    "group": "🏕️ Don't Starve Together Boss 🏕️"
   },
   "deerclops_winter_display": {
     "type": "checkbox",
@@ -592,18 +591,6 @@
     "type": "text",
     "label": "Winter's Feast Deerclops command key",
     "value": "deerclops_winter",
-    "group": "❄️ Winter's Feast Boss ❄️"
-  },
-  "dragonfly_winter_display": {
-    "type": "checkbox",
-    "label": "Winter's Feast Dragonfly",
-    "value": true,
-    "group": "❄️ Winter's Feast Boss ❄️"
-  },
-  "dragonfly_winter_command_key": {
-    "type": "text",
-    "label": "Winter's Feast Dragonfly command key",
-    "value": "dragonfly_winter",
     "group": "❄️ Winter's Feast Boss ❄️"
   },
   "goose_winter_display": {
@@ -618,7 +605,30 @@
     "value": "goose_winter",
     "group": "❄️ Winter's Feast Boss ❄️"
   },
-
+  "dragonfly_winter_display": {
+    "type": "checkbox",
+    "label": "Winter's Feast Dragonfly",
+    "value": true,
+    "group": "❄️ Winter's Feast Boss ❄️"
+  },
+  "dragonfly_winter_command_key": {
+    "type": "text",
+    "label": "Winter's Feast Dragonfly command key",
+    "value": "dragonfly_winter",
+    "group": "❄️ Winter's Feast Boss ❄️"
+  },
+  "bearger_winter_display": {
+    "type": "checkbox",
+    "label": "Winter's Feast Bearger",
+    "value": true,
+    "group": "❄️ Winter's Feast Boss ❄️"
+  },
+  "bearger_winter_command_key": {
+    "type": "text",
+    "label": "Winter's Feast Bearger command key",
+    "value": "bearger_winter",
+    "group": "❄️ Winter's Feast Boss ❄️"
+  },
   "boarilla_display": {
     "type": "checkbox",
     "label": "Boarilla",
@@ -667,7 +677,6 @@
     "value": "rhinocebro",
     "group": "🔨 Forge Boss 🔨"
   },
-
   "palm_treeguard_display": {
     "type": "checkbox",
     "label": "Palm Treeguard",
@@ -716,7 +725,6 @@
     "value": "tiger_shark",
     "group": "🦜 Shipwrecked Boss 🦜"
   },
-
   "ancient_herald_display": {
     "type": "checkbox",
     "label": "Ancient Herald",
@@ -765,7 +773,6 @@
     "value": "queen_womant",
     "group": "🍖 Hamlet Boss 🍖"
   },
-
   "widgetName": {
     "type": "hidden",
     "label": "DST Boss List Widget",
@@ -787,7 +794,7 @@
   "widgetVersion": {
     "type": "hidden",
     "label": "Version 1.0",
-    "value": "24.03.15",
+    "value": "28.07.25",
     "group": "About"
   }
 }

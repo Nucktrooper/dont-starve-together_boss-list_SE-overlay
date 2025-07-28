@@ -54,283 +54,301 @@ body {
 	filter: drop-shadow(0 0 1px {boss_done_bg_color}) drop-shadow(0 0 2px {boss_done_bg_color}) drop-shadow(0 0 3px {boss_done_bg_color});
 }
 
-#boss-list > img#antlion {
-	content: url('https://i.postimg.cc/RVFRy94b/antlion.webp')
-}
-#boss-list.animated > img#antlion {
-	content: url('https://i.postimg.cc/rzXw1MJF/antlion.webp')
-}
-#boss-list > img#bearger {
-	content: url('https://i.postimg.cc/G3zKX9wy/bearger.webp')
-}
-#boss-list.animated > img#bearger {
-	content: url('https://i.postimg.cc/prVHXTTc/bearger.webp')
-}
-#boss-list > img#bee_queen {
-	content: url('https://i.postimg.cc/RhCRMxfh/Bee-Queen.webp')
-}
-#boss-list.animated > img#bee_queen {
-	content: url('https://i.postimg.cc/YCNhxGTc/bee-queen.webp')
-}
-#boss-list > img#celestial_champion {
-	content: url('https://i.postimg.cc/ydHjbZ8F/celestial-champion.webp')
-}
-#boss-list.animated > img#celestial_champion {
-	content: url('https://i.postimg.cc/8cF7dygw/celestial-champion.webp')
-}
-#boss-list > img#deerclops {
-	content: url('https://i.postimg.cc/tgPDk5pq/Deerclops.webp')
-}
-#boss-list.animated > img#deerclops {
-	content: url('https://i.postimg.cc/d3L2YQJG/deerclops.webp')
-}
-#boss-list > img#dragonfly {
-	content: url('https://i.postimg.cc/15CW3XvQ/dragonfly.webp')
-}
-#boss-list.animated > img#dragonfly {
-	content: url('https://i.postimg.cc/5y7C7hvj/dragonfly.webp')
-}
-#boss-list > img#ewecus {
-	content: url('https://i.postimg.cc/Vvj8cMqm/ewecus.webp')
-}
-#boss-list.animated > img#ewecus {
-	content: url('https://i.postimg.cc/Tw3L1dkz/ewecus.webp')
-}
-#boss-list > img#eye_of_terror {
-	content: url('https://i.postimg.cc/c1c9PXY6/eye-of-terror.webp')
-}
-#boss-list.animated > img#eye_of_terror {
-	content: url('https://i.postimg.cc/d3XTgbjz/eye-of-terror.webp')
-}
-#boss-list > img#retinazor {
-	content: url('https://i.postimg.cc/hvnYTYmR/retinazor.webp')
-}
-#boss-list.animated > img#retinazor {
-	content: url('https://i.postimg.cc/fTtdYbwZ/eye-twin-retinazor.webp')
-}
-#boss-list > img#spazmatism {
-	content: url('https://i.postimg.cc/Wz7Hn7mF/spazmatism.webp')
-}
-#boss-list.animated > img#spazmatism {
-	content: url('https://i.postimg.cc/7PQ7Czrm/eye-twin-spazmatism.webp')
-}
-#boss-list > img#goose {
-	content: url('https://i.postimg.cc/QxhLTFgK/goose.webp')
-}
-#boss-list.animated > img#goose {
-	content: url('https://i.postimg.cc/4Nm6w5QD/goose.webp')
-}
-#boss-list > img#klaus {
-	content: url('https://i.postimg.cc/YSJZq0q9/klaus.webp')
-}
-#boss-list.animated > img#klaus {
-	content: url('https://i.postimg.cc/Pqh8Gz1r/klaus.webp')
-}
-#boss-list > img#lord_of_the_fruit_flies {
-	content: url('https://i.postimg.cc/9QgsK16y/lord-of-the-fruit-flies.webp')
-}
-#boss-list.animated > img#lord_of_the_fruit_flies {
-	content: url('https://i.postimg.cc/Bvqt7ZGj/lord-of-the-fruit-flies.webp')
-}
-#boss-list > img#scrappy_werepig {
-	content: url('https://i.postimg.cc/hh1YkvhV/scrappy-werepig.webp')
-}
-#boss-list.animated > img#scrappy_werepig {
-	content: url('https://i.postimg.cc/1zCkR8BH/scrappy-werepig.webp')
-}
-#boss-list > img#shadow_pieces {
-	content: url('https://i.postimg.cc/pTz79vpB/shadow-pieces.webp')
-}
-#boss-list > img#spider_queen {
-	content: url('https://i.postimg.cc/G3PVdc0L/spider-queen.webp')
-}
-#boss-list.animated > img#spider_queen {
-	content: url('https://i.postimg.cc/HxY5M4LP/spider-queen.webp')
-}
 #boss-list > img#treeguard {
-	content: url('https://i.postimg.cc/zGvcCKyv/treeguard.webp')
+  content: url('https://i.postimg.cc/zGvcCKyv/treeguard.webp')
 }
 #boss-list.animated > img#treeguard {
-	content: url('https://i.postimg.cc/ZnS5g8Pn/treeguard.webp')
+  content: url('https://i.postimg.cc/ZnS5g8Pn/treeguard.webp')
+}
+#boss-list > img#spider_queen {
+  content: url('https://i.postimg.cc/G3PVdc0L/spider-queen.webp')
+}
+#boss-list.animated > img#spider_queen {
+  content: url('https://i.postimg.cc/HxY5M4LP/spider-queen.webp')
 }
 #boss-list > img#varg {
-	content: url('https://i.postimg.cc/FH6nDzSZ/warg.webp')
+  content: url('https://i.postimg.cc/FH6nDzSZ/warg.webp')
 }
 #boss-list.animated > img#varg {
-	content: url('https://i.postimg.cc/NjRrPP9z/warg.webp')
+  content: url('https://i.postimg.cc/NjRrPP9z/warg.webp')
 }
-
-#boss-list > img#crab_king {
-	content: url('https://i.postimg.cc/3RF15xkz/Crab-King.webp')
+#boss-list > img#lord_of_the_fruit_flies {
+  content: url('https://i.postimg.cc/9QgsK16y/lord-of-the-fruit-flies.webp')
 }
-#boss-list.animated > img#crab_king {
-	content: url('https://i.postimg.cc/wxt5Q2VS/crab-king.webp')
+#boss-list.animated > img#lord_of_the_fruit_flies {
+  content: url('https://i.postimg.cc/Bvqt7ZGj/lord-of-the-fruit-flies.webp')
 }
-#boss-list > img#frostjaw {
-	content: url('https://i.postimg.cc/901LTQVy/Frostjaw.webp')
+#boss-list > img#ewecus {
+  content: url('https://i.postimg.cc/Vvj8cMqm/ewecus.webp')
 }
-#boss-list.animated > img#frostjaw {
-	content: url('https://i.postimg.cc/hj2m1zz4/frostjaw.webp')
+#boss-list.animated > img#ewecus {
+  content: url('https://i.postimg.cc/Tw3L1dkz/ewecus.webp')
 }
-#boss-list > img#malbatross {
-	content: url('https://i.postimg.cc/cLLVFPbs/malbatross.webp')
+#boss-list > img#eye_of_terror {
+  content: url('https://i.postimg.cc/c1c9PXY6/eye-of-terror.webp')
 }
-#boss-list.animated > img#malbatross {
-	content: url('https://i.postimg.cc/v8jg8d5K/malbatross.webp')
+#boss-list.animated > img#eye_of_terror {
+  content: url('https://i.postimg.cc/d3XTgbjz/eye-of-terror.webp')
 }
-
-#boss-list > img#ancient_guardian {
-	content: url('https://i.postimg.cc/gkTDP50c/ancient-guardian.webp')
+#boss-list > img#retinazor {
+  content: url('https://i.postimg.cc/hvnYTYmR/retinazor.webp')
 }
-#boss-list.animated > img#ancient_guardian {
-	content: url('https://i.postimg.cc/cLGvYM9M/ancient-guardian.webp')
+#boss-list.animated > img#retinazor {
+  content: url('https://i.postimg.cc/fTtdYbwZ/eye-twin-retinazor.webp')
 }
-#boss-list > img#fuelweaver_ancient {
-	content: url('https://i.postimg.cc/FzhP7Lt9/fuelweaver-ancient.webp')
+#boss-list > img#spazmatism {
+  content: url('https://i.postimg.cc/Wz7Hn7mF/spazmatism.webp')
 }
-#boss-list.animated > img#fuelweaver_ancient {
-	content: url('https://i.postimg.cc/Cx8jpxtJ/fuelweaver-ancient.webp')
+#boss-list.animated > img#spazmatism {
+  content: url('https://i.postimg.cc/7PQ7Czrm/eye-twin-spazmatism.webp')
 }
-#boss-list > img#fuelweaver_caves {
-	content: url('https://i.postimg.cc/9Md8mBn8/fuelweaver-cave.webp')
+#boss-list > img#deerclops {
+  content: url('https://i.postimg.cc/tgPDk5pq/Deerclops.webp')
 }
-#boss-list > img#fuelweaver_forest {
-	content: url('https://i.postimg.cc/NMqCvnp2/fuelweaver-forest.webp')
+#boss-list.animated > img#deerclops {
+  content: url('https://i.postimg.cc/d3L2YQJG/deerclops.webp')
 }
-#boss-list > img#great_depths_worm {
-	content: url('https://i.postimg.cc/0btBN4YQ/great-depths-worm.webp')
+#boss-list > img#klaus {
+  content: url('https://i.postimg.cc/YSJZq0q9/klaus.webp')
 }
-#boss-list.animated > img#great_depths_worm {
-	content: url('https://i.postimg.cc/s2gFRYYx/great-depths-worm.webp')
+#boss-list.animated > img#klaus {
+  content: url('https://i.postimg.cc/Pqh8Gz1r/klaus.webp')
+}
+#boss-list > img#goose {
+  content: url('https://i.postimg.cc/QxhLTFgK/goose.webp')
+}
+#boss-list.animated > img#goose {
+  content: url('https://i.postimg.cc/4Nm6w5QD/goose.webp')
+}
+#boss-list > img#bee_queen {
+  content: url('https://i.postimg.cc/RhCRMxfh/Bee-Queen.webp')
+}
+#boss-list.animated > img#bee_queen {
+  content: url('https://i.postimg.cc/YCNhxGTc/bee-queen.webp')
+}
+#boss-list > img#antlion {
+  content: url('https://i.postimg.cc/RVFRy94b/antlion.webp')
+}
+#boss-list.animated > img#antlion {
+  content: url('https://i.postimg.cc/rzXw1MJF/antlion.webp')
+}
+#boss-list > img#dragonfly {
+  content: url('https://i.postimg.cc/15CW3XvQ/dragonfly.webp')
+}
+#boss-list.animated > img#dragonfly {
+  content: url('https://i.postimg.cc/5y7C7hvj/dragonfly.webp')
+}
+#boss-list > img#bearger {
+  content: url('https://i.postimg.cc/G3zKX9wy/bearger.webp')
+}
+#boss-list.animated > img#bearger {
+  content: url('https://i.postimg.cc/prVHXTTc/bearger.webp')
+}
+#boss-list > img#shadow_pieces {
+  content: url('https://i.postimg.cc/xCPCST43/shadow-pieces.webp')
+}
+#boss-list.animated > img#shadow_pieces {
+  content: url('https://i.postimg.cc/PxdXKn5p/shadow-pieces.webp')
 }
 #boss-list > img#nightmare_werepig {
-	content: url('https://i.postimg.cc/Zq9XSpm2/nightmare-werepig.webp')
+  content: url('https://i.postimg.cc/Zq9XSpm2/nightmare-werepig.webp')
 }
 #boss-list.animated > img#nightmare_werepig {
-	content: url('https://i.postimg.cc/gJxfxGBP/nightmare-werepig.webp')
+  content: url('https://i.postimg.cc/gJxfxGBP/nightmare-werepig.webp')
+}
+#boss-list > img#ancient_guardian {
+  content: url('https://i.postimg.cc/gkTDP50c/ancient-guardian.webp')
+}
+#boss-list.animated > img#ancient_guardian {
+  content: url('https://i.postimg.cc/cLGvYM9M/ancient-guardian.webp')
+}
+#boss-list > img#fuelweaver_ancient {
+  content: url('https://i.postimg.cc/FzhP7Lt9/fuelweaver-ancient.webp')
+}
+#boss-list.animated > img#fuelweaver_ancient {
+  content: url('https://i.postimg.cc/Cx8jpxtJ/fuelweaver-ancient.webp')
+}
+#boss-list > img#fuelweaver_caves {
+  content: url('https://i.postimg.cc/9Md8mBn8/fuelweaver-cave.webp')
+}
+#boss-list > img#fuelweaver_forest {
+  content: url('https://i.postimg.cc/NMqCvnp2/fuelweaver-forest.webp')
 }
 #boss-list > img#toadstool {
-	content: url('https://i.postimg.cc/PrtcqBhm/toadstool.webp')
+  content: url('https://i.postimg.cc/PrtcqBhm/toadstool.webp')
 }
 #boss-list.animated > img#toadstool {
-	content: url('https://i.postimg.cc/JhqHRDQ3/toadstool.webp')
+  content: url('https://i.postimg.cc/JhqHRDQ3/toadstool.webp')
 }
 #boss-list > img#toadstool_misery {
-	content: url('https://i.postimg.cc/MKdLfdKg/toadstool-misery.webp')
+  content: url('https://i.postimg.cc/MKdLfdKg/toadstool-misery.webp')
 }
 #boss-list.animated > img#toadstool_misery {
-	content: url('https://i.postimg.cc/rszrnVx1/toadstool-misery.webp')
+  content: url('https://i.postimg.cc/rszrnVx1/toadstool-misery.webp')
+}
+#boss-list > img#great_depths_worm {
+  content: url('https://i.postimg.cc/0btBN4YQ/great-depths-worm.webp')
+}
+#boss-list.animated > img#great_depths_worm {
+  content: url('https://i.postimg.cc/s2gFRYYx/great-depths-worm.webp')
+}
+#boss-list > img#malbatross {
+  content: url('https://i.postimg.cc/cLLVFPbs/malbatross.webp')
+}
+#boss-list.animated > img#malbatross {
+  content: url('https://i.postimg.cc/v8jg8d5K/malbatross.webp')
+}
+#boss-list > img#frostjaw {
+  content: url('https://i.postimg.cc/901LTQVy/Frostjaw.webp')
+}
+#boss-list.animated > img#frostjaw {
+  content: url('https://i.postimg.cc/hj2m1zz4/frostjaw.webp')
+}
+#boss-list > img#crab_king {
+  content: url('https://i.postimg.cc/3RF15xkz/Crab-King.webp')
+}
+#boss-list.animated > img#crab_king {
+  content: url('https://i.postimg.cc/wxt5Q2VS/crab-king.webp')
+}
+#boss-list > img#celestial_champion {
+  content: url('https://i.postimg.cc/ydHjbZ8F/celestial-champion.webp')
+}
+#boss-list.animated > img#celestial_champion {
+  content: url('https://i.postimg.cc/8cF7dygw/celestial-champion.webp')
+}
+#boss-list > img#scrappy_werepig {
+  content: url('https://i.postimg.cc/hh1YkvhV/scrappy-werepig.webp')
+}
+#boss-list.animated > img#scrappy_werepig {
+  content: url('https://i.postimg.cc/1zCkR8BH/scrappy-werepig.webp')
+}
+#boss-list > img#varg_possessed {
+  content: url('https://i.postimg.cc/BXZz431k/warg-mutated.webp')
+}
+#boss-list.animated > img#varg_possessed {
+  content: url('https://i.postimg.cc/ZRXX3X1v/warg-mutated.webp')
+}
+#boss-list > img#bearger_armored {
+  content: url('https://i.postimg.cc/d3W93NmB/bearger-mutated.webp')
+}
+#boss-list.animated > img#bearger_armored {
+  content: url('https://i.postimg.cc/wMsBR7DG/bearger-mutated.webp')
+}
+#boss-list > img#deerclops_crystal {
+  content: url('https://i.postimg.cc/P5021cGV/deerclops-mutated.webp')
+}
+#boss-list.animated > img#deerclops_crystal {
+  content: url('https://i.postimg.cc/KcdPqTp4/deerclops-mutated.webp')
+}
+#boss-list > img#celestial_revenant {
+  content: url('https://i.postimg.cc/Y2b9n0gp/celestial-revenant.webp')
+}
+#boss-list.animated > img#celestial_revenant {
+  content: url('https://i.postimg.cc/85w10X7y/celestial-revenant.webp')
+}
+#boss-list > img#warbot {
+  content: url('https://i.postimg.cc/0jWybXx6/warbot.webp')
+}
+#boss-list.animated > img#warbot {
+  content: url('https://i.postimg.cc/ZnRTtP3J/warbot.webp')
+}
+#boss-list > img#celestial_scion {
+  content: url('https://i.postimg.cc/d3t0QcMP/celestion-scion.webp')
+}
+#boss-list.animated > img#celestial_scion {
+  content: url('https://i.postimg.cc/1Xjy9gcw/celestion-scion.webp')
 }
 
-#boss-list > img#bearger_mutated {
-	content: url('https://i.postimg.cc/d3W93NmB/bearger-mutated.webp')
-}
-#boss-list.animated > img#bearger_mutated {
-	content: url('https://i.postimg.cc/wMsBR7DG/bearger-mutated.webp')
-}
-#boss-list > img#deerclops_mutated {
-	content: url('https://i.postimg.cc/P5021cGV/deerclops-mutated.webp')
-}
-#boss-list.animated > img#deerclops_mutated {
-	content: url('https://i.postimg.cc/KcdPqTp4/deerclops-mutated.webp')
-}
-#boss-list > img#varg_mutated {
-	content: url('https://i.postimg.cc/BXZz431k/warg-mutated.webp')
-}
-#boss-list.animated > img#varg_mutated {
-	content: url('https://i.postimg.cc/ZRXX3X1v/warg-mutated.webp')
-}
-
-#boss-list > img#bearger_winter {
-	content: url('https://i.postimg.cc/yxqH5nSL/bearger-winter.webp')
-}
-#boss-list.animated > img#bearger_winter {
-	content: url('https://i.postimg.cc/XJqq32q3/bearger-winter.webp')
-}
 #boss-list > img#deerclops_winter {
-	content: url('https://i.postimg.cc/jSDMwT1J/deerclops-winter.webp')
+  content: url('https://i.postimg.cc/jSDMwT1J/deerclops-winter.webp')
 }
 #boss-list.animated > img#deerclops_winter {
-	content: url('https://i.postimg.cc/W3y34MqZ/deerclops-winter.webp')
-}
-#boss-list > img#dragonfly_winter {
-	content: url('https://i.postimg.cc/J4468Zcx/dragonfly-winter.webp')
-}
-#boss-list.animated > img#dragonfly_winter {
-	content: url('https://i.postimg.cc/wTmt7bVj/dragonfly-winter.webp')
+  content: url('https://i.postimg.cc/W3y34MqZ/deerclops-winter.webp')
 }
 #boss-list > img#goose_winter {
-	content: url('https://i.postimg.cc/TY9zqTQ7/goose-winter.webp')
+  content: url('https://i.postimg.cc/TY9zqTQ7/goose-winter.webp')
 }
 #boss-list.animated > img#goose_winter {
-	content: url('https://i.postimg.cc/3wCmWb3v/goose-winter.webp')
+  content: url('https://i.postimg.cc/3wCmWb3v/goose-winter.webp')
+}
+#boss-list > img#dragonfly_winter {
+  content: url('https://i.postimg.cc/J4468Zcx/dragonfly-winter.webp')
+}
+#boss-list.animated > img#dragonfly_winter {
+  content: url('https://i.postimg.cc/wTmt7bVj/dragonfly-winter.webp')
+}
+#boss-list > img#bearger_winter {
+  content: url('https://i.postimg.cc/yxqH5nSL/bearger-winter.webp')
+}
+#boss-list.animated > img#bearger_winter {
+  content: url('https://i.postimg.cc/XJqq32q3/bearger-winter.webp')
 }
 
 #boss-list > img#boarilla {
-	content: url('https://i.postimg.cc/xdt8wr0t/boarilla.webp')
+  content: url('https://i.postimg.cc/xdt8wr0t/boarilla.webp')
 }
 #boss-list.animated > img#boarilla {
-	content: url('https://i.postimg.cc/bY60QMk0/boarilla.webp')
+  content: url('https://i.postimg.cc/bY60QMk0/boarilla.webp')
 }
 #boss-list > img#grand_forge_boarrior {
-	content: url('https://i.postimg.cc/ZYrtn8Nh/grand-forge-boarrior.webp')
+  content: url('https://i.postimg.cc/ZYrtn8Nh/grand-forge-boarrior.webp')
 }
 #boss-list.animated > img#grand_forge_boarrior {
-	content: url('https://i.postimg.cc/qq78PXVC/grand-forge-boarrior.webp')
+  content: url('https://i.postimg.cc/qq78PXVC/grand-forge-boarrior.webp')
 }
 #boss-list > img#infernal_swineclops {
-	content: url('https://i.postimg.cc/nrK6WxxL/infernal-sw-ineclops.webp')
+  content: url('https://i.postimg.cc/nrK6WxxL/infernal-sw-ineclops.webp')
 }
 #boss-list.animated > img#infernal_swineclops {
-	content: url('https://i.postimg.cc/N0hkKHTW/infernal-sw-ineclops.webp')
+  content: url('https://i.postimg.cc/N0hkKHTW/infernal-sw-ineclops.webp')
 }
 #boss-list > img#rhinocebro {
-	content: url('https://i.postimg.cc/D0395ZtD/rhinocebro.webp')
+  content: url('https://i.postimg.cc/D0395ZtD/rhinocebro.webp')
 }
 #boss-list.animated > img#rhinocebro {
-	content: url('https://i.postimg.cc/wMbhgyg4/rhinocebro.webp')
+  content: url('https://i.postimg.cc/wMbhgyg4/rhinocebro.webp')
 }
 
 #boss-list > img#palm_treeguard {
-	content: url('https://i.postimg.cc/kgjd97b6/palm-treeguard.webp')
+  content: url('https://i.postimg.cc/kgjd97b6/palm-treeguard.webp')
 }
 #boss-list > img#quacken {
-	content: url('https://i.postimg.cc/xT2Q3xQC/quacken.webp')
+  content: url('https://i.postimg.cc/xT2Q3xQC/quacken.webp')
 }
 #boss-list > img#sealnado {
-	content: url('https://i.postimg.cc/287DcQjx/sealnado.webp')
+  content: url('https://i.postimg.cc/287DcQjx/sealnado.webp')
 }
 #boss-list.animated > img#sealnado {
-	content: url('https://i.postimg.cc/JzHQ7qyN/sealnado.webp')
+  content: url('https://i.postimg.cc/JzHQ7qyN/sealnado.webp')
 }
 #boss-list > img#tiger_shark {
-	content: url('https://i.postimg.cc/DfsFsVtH/tiger-shark.webp')
+  content: url('https://i.postimg.cc/DfsFsVtH/tiger-shark.webp')
 }
 #boss-list.animated > img#tiger_shark {
-	content: url('https://i.postimg.cc/R0zwSzxm/tiger-shark.webp')
+  content: url('https://i.postimg.cc/R0zwSzxm/tiger-shark.webp')
 }
 
 #boss-list > img#ancient_herald {
-	content: url('https://i.postimg.cc/pTjND81z/ancient-herald.webp')
+  content: url('https://i.postimg.cc/pTjND81z/ancient-herald.webp')
 }
 #boss-list.animated > img#ancient_herald {
-	content: url('https://i.postimg.cc/g0vq82Hr/ancient-herald.webp')
+  content: url('https://i.postimg.cc/g0vq82Hr/ancient-herald.webp')
 }
 #boss-list > img#iron_hulk {
-	content: url('https://i.postimg.cc/FK85dGGh/iron-hulk.webp')
+  content: url('https://i.postimg.cc/FK85dGGh/iron-hulk.webp')
 }
 #boss-list.animated > img#iron_hulk {
-	content: url('https://i.postimg.cc/85jVvZXt/iron-hulk.webp')
+  content: url('https://i.postimg.cc/85jVvZXt/iron-hulk.webp')
 }
 #boss-list > img#pugalisk {
-	content: url('https://i.postimg.cc/fRWh6VJQ/pugalisk.webp')
+  content: url('https://i.postimg.cc/fRWh6VJQ/pugalisk.webp')
 }
 #boss-list.animated > img#pugalisk {
-	content: url('https://i.postimg.cc/Ghknv8zw/pugalisk.webp')
+  content: url('https://i.postimg.cc/Ghknv8zw/pugalisk.webp')
 }
 #boss-list > img#queen_womant {
-	content: url('https://i.postimg.cc/MGvJpg7s/queen-womant.webp')
+  content: url('https://i.postimg.cc/MGvJpg7s/queen-womant.webp')
 }
 #boss-list.animated > img#queen_womant {
-	content: url('https://i.postimg.cc/J0XV6GLX/queen-womant.webp')
+  content: url('https://i.postimg.cc/J0XV6GLX/queen-womant.webp')
 }
